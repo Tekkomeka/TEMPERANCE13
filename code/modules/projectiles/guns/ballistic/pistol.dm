@@ -97,3 +97,20 @@
 	eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
 	recoil = 0.15
 	semi_auto = TRUE
+
+
+/obj/item/gun/ballistic/rifle/repeater/commandant
+	name = "ANL 'Liberation'"
+	desc = "Clip-loaded, semi-automatic pistol. Honor the Ziggurate."
+	icon_state = "machinepistol"
+	item_state = "machinepistol"
+	w_class = WEIGHT_CLASS_SMALL
+	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/pistol
+	slowdown = 0.15
+	spread = 0.5
+	pump_sound = 'sound/combat/ranged/hpistol_cock.ogg'
+	fire_sound = PISTOLSHOT
+	load_sound = 'sound/combat/ranged/clipload.ogg'
+	recoil = 0.15
+	semi_auto = TRUE
+	slot_flags = ITEM_SLOT_BACK

@@ -76,3 +76,11 @@
 	caliber = "a9mm"
 	max_ammo = 7
 	multiload = 1
+
+/obj/item/ammo_box/magazine/internal/boltaction/machinepistol
+	name = "machine pistol internal magazine"
+	desc = "please ahelp if u find me"
+	ammo_type = /obj/item/ammo_casing/a9mm
+	caliber = "a9mm"
+	max_ammo = 14
+	multiload = 1

@@ -207,10 +207,6 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	name = "Gatemaster"
 	icon_state = "arrow"
 
-/obj/effect/landmark/start/villager
-	name = "Towner"
-	icon_state = "arrow"
-
 /obj/effect/landmark/start/woodsman
 	name = "Town Elder"
 	icon_state = "arrow"
@@ -462,6 +458,18 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	name = "Auxiliarist"
 	icon_state = "arrow"
 
+/obj/effect/landmark/start/chirurgeon
+	name = "Chirurgeon"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/partisan
+	name = "Partisan"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/envoy
+	name = "Envoy"
+	icon_state = "arrow"
+
 /obj/effect/landmark/start/commandant
 	name = "Commandant"
 	icon_state = "arrow"
@@ -480,6 +488,38 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 
 /obj/effect/landmark/start/servisto
 	name = "Servisto"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/curacisto
+	name = "Curacisto"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/campfollower
+	name = "Camp Follower"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/consulo
+	name = "Consulo"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/hierarch
+	name = "Hierarch"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/bulwark
+	name = "Bulwark"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/provisioner
+	name = "Provisioner"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/mortician
+	name = "Mortician"
+	icon_state = "arrow"
+
+/obj/effect/landmark/start/villager
+	name = "Towner"
 	icon_state = "arrow"
 
 //Antagonist spawns
