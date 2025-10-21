@@ -7,6 +7,7 @@
 #define GLOW_COLOR_METAL "#808080" // Gray
 #define GLOW_COLOR_DISPLACEMENT "#9400D3" // Purple, for generic displacement / CC spells
 #define GLOW_COLOR_ARCANE "#6495ED" // Light Blue, for generic arcane spells
+#define GLOW_COLOR_ARTILLERY "#5e3838" // Maroon, for artillery-related spells
 
 // Constants for spell glow intensity. These are literally 1 2 3 4 but it is for documenting design purposes 
 #define GLOW_INTENSITY_LOW 1 // For spam projectiles or generic buffs
