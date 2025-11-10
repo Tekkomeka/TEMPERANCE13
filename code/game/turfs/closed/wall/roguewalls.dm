@@ -732,15 +732,3 @@
 
 /turf/closed/wall/mineral/rogue/machine/outercorner/dir4
 	dir = 4
-
-/turf/closed/wall/mineral/rogue/machine/innercorner
-	icon_state = "decometal_IC"
-
-/turf/closed/wall/mineral/rogue/machine/innercorner/dir1
-	dir = 1
-
-/turf/closed/wall/mineral/rogue/machine/innercorner/dir8
-	dir = 8
-
-/turf/closed/wall/mineral/rogue/machine/innercorner/dir4
-	dir = 4

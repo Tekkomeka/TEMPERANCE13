@@ -133,26 +133,6 @@ GLOBAL_LIST_EMPTY(loadout_items)
 	name = "Rain Cloak"
 	path = /obj/item/clothing/cloak/raincloak
 
-/datum/loadout_item/furcloak
-	name = "Fur Cloak"
-	path = /obj/item/clothing/cloak/raincloak/furcloak
-
-/datum/loadout_item/direcloak
-	name = "direbear cloak"
-	path = /obj/item/clothing/cloak/darkcloak/bear
-
-/datum/loadout_item/lightdirecloak
-	name = "light direbear cloak"
-	path = /obj/item/clothing/cloak/darkcloak/bear/light
-
-/datum/loadout_item/volfmantle
-	name = "Volf Mantle"
-	path = /obj/item/clothing/cloak/volfmantle
-
-/datum/loadout_item/eastcloak2
-	name = "Leather Cloak"
-	path = /obj/item/clothing/cloak/eastcloak2
-
 /datum/loadout_item/thief_cloak
 	name = "Rapscallion's Shawl"
 	path = /obj/item/clothing/cloak/thief_cloak
@@ -203,10 +183,6 @@ GLOBAL_LIST_EMPTY(loadout_items)
 	path = /obj/item/clothing/shoes/roguetown/armor/rumaclan
 
 //SHIRTS
-/datum/loadout_item/longcoat
-	name = "Longcoat"
-	path = /obj/item/clothing/suit/roguetown/armor/longcoat
-
 /datum/loadout_item/robe
 	name = "Robe"
 	path = /obj/item/clothing/suit/roguetown/shirt/robe
@@ -230,10 +206,6 @@ GLOBAL_LIST_EMPTY(loadout_items)
 /datum/loadout_item/sailorjacket
 	name = "Leather Jacket"
 	path = /obj/item/clothing/suit/roguetown/armor/leather/vest/sailor
-
-/datum/loadout_item/priestrobe
-	name = "Undervestments"
-	path = /obj/item/clothing/suit/roguetown/shirt/undershirt/priest
 
 /datum/loadout_item/exoticsilkbra
 	name = "Exotic Silk Bra"
@@ -294,18 +266,6 @@ GLOBAL_LIST_EMPTY(loadout_items)
 /datum/loadout_item/leathervest
 	name = "Leather Vest"
 	path = /obj/item/clothing/suit/roguetown/armor/leather/vest
-
-/datum/loadout_item/nun_habit
-	name = "Nun Habit"
-	path = /obj/item/clothing/suit/roguetown/shirt/robe/nun
-
-/datum/loadout_item/eastshirt1
-	name = "Black Foreign Shirt"
-	path = /obj/item/clothing/suit/roguetown/shirt/undershirt/eastshirt1
-
-/datum/loadout_item/eastshirt2
-	name = "White Foreign Shirt"
-	path = /obj/item/clothing/suit/roguetown/shirt/undershirt/eastshirt2
 //PANTS
 /datum/loadout_item/tights
 	name = "Cloth Tights"
@@ -416,46 +376,6 @@ GLOBAL_LIST_EMPTY(loadout_items)
 	name = "Cloth Blindfold"
 	path = /obj/item/clothing/mask/rogue/blindfold
 
-/datum/loadout_item/psicross
-	name = "Psydonian Cross"
-	path = /obj/item/clothing/neck/roguetown/psicross
-
-/datum/loadout_item/psicross/astrata
-	name = "Amulet of Astrata"
-	path = /obj/item/clothing/neck/roguetown/psicross/astrata
-
-/datum/loadout_item/psicross/noc
-	name = "Amulet of Noc"
-	path = /obj/item/clothing/neck/roguetown/psicross/noc
-
-/datum/loadout_item/psicross/abyssor
-	name = "Amulet of Abyssor"
-	path = /obj/item/clothing/neck/roguetown/psicross/abyssor
-
-/datum/loadout_item/psicross/dendor
-	name = "Amulet of Dendor"
-	path = /obj/item/clothing/neck/roguetown/psicross/dendor
-
-/datum/loadout_item/psicross/necra
-	name = "Amulet of Necra"
-	path = /obj/item/clothing/neck/roguetown/psicross/necra
-
-/datum/loadout_item/psicross/pestra
-	name = "Amulet of Pestra"
-	path = /obj/item/clothing/neck/roguetown/psicross/pestra
-
-/datum/loadout_item/psicross/ravox
-	name = "Amulet of Ravox"
-	path = /obj/item/clothing/neck/roguetown/psicross/ravox
-
-/datum/loadout_item/psicross/malum
-	name = "Amulet of Malum"
-	path = /obj/item/clothing/neck/roguetown/psicross/malum
-
-/datum/loadout_item/psicross/eora
-	name = "Amulet of Eora"
-	path = /obj/item/clothing/neck/roguetown/psicross/eora
-
 /datum/loadout_item/wedding_band
 	name = "silver wedding band"
 	path = /obj/item/clothing/ring/band
@@ -472,53 +392,11 @@ GLOBAL_LIST_EMPTY(loadout_items)
     name = "Noble's Chaperon"
     path = /obj/item/clothing/head/roguetown/chaperon/noble
 
-/datum/loadout_item/jesterhat
-    name = "Jester's Hat"
-    path = /obj/item/clothing/head/roguetown/jester
-
-/datum/loadout_item/jestertunick
-    name = "Jester's Tunick"
-    path = /obj/item/clothing/suit/roguetown/shirt/jester
-
-/datum/loadout_item/jestershoes
-    name = "Jester's Shoes"
-    path = /obj/item/clothing/shoes/roguetown/jester
-
 //Donator Section
 //All these items are stored in the donator_fluff.dm in the azure modular folder for simplicity.
 //All should be subtypes of existing weapons/clothes/armor/gear, whatever, to avoid balance issues I guess. Idk, I'm not your boss.
 
-/datum/loadout_item/donator_plex
-	name = "Donator Kit - Rapier di Aliseo"
-	path = /obj/item/enchantingkit/plexiant
-	ckeywhitelist = list("plexiant")
-
-/datum/loadout_item/donator_sru
-	name = "Donator Kit - Emerald Dress"
-	path = /obj/item/enchantingkit/srusu
-	ckeywhitelist = list("cheekycrenando")
-
-/datum/loadout_item/donator_strudel
-	name = "Donator Kit - Grenzelhoftian Mage Vest"
-	path = /obj/item/enchantingkit/strudle
-	ckeywhitelist = list("toasterstrudes")
-
-/datum/loadout_item/donator_bat
-	name = "Donator Kit - Handcarved Harp"
-	path = /obj/item/enchantingkit/bat
-	ckeywhitelist = list("kitchifox")
-
-/datum/loadout_item/donator_mansa
-	name = "Donator Kit - Wortträger"
-	path = /obj/item/enchantingkit/ryebread
-	ckeywhitelist = list("pepperoniplayboy")	//Byond maybe doesn't like spaces. If a name has a space, do it as one continious name.
-
-/datum/loadout_item/donator_rebel
-	name = "Donator Kit - Gilded Sallet"
-	path = /obj/item/enchantingkit/rebel
-	ckeywhitelist = list("rebel0")
-
-/datum/loadout_item/donator_zydras
-	name = "Donator Kit - Padded silky dress"
-	path = /obj/item/enchantingkit/zydras
-	ckeywhitelist = list("1ceres")
+/datum/loadout_item/donator_example
+	name = "example"
+	path = /obj/item/clothing/head/roguetown/chaperon/noble
+	ckeywhitelist = list("example")

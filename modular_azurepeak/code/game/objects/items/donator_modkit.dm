@@ -27,42 +27,6 @@
 
 //Plexiant - Custom rapier type
 /obj/item/enchantingkit/plexiant
-	name = "'Rapier di Aliseo' morphing elixir"
+	name = "example modkit"
 	target_items = list(/obj/item/rogueweapon/sword/rapier)		//Takes any subpated rapier and turns it into unique one.
 	result_item = /obj/item/rogueweapon/sword/rapier/aliseo
-
-//Ryebread - Custom estoc type
-/obj/item/enchantingkit/ryebread
-	name = "'Worttrager' morphing elixir"
-	target_items = list(/obj/item/rogueweapon/estoc)		//Takes any subpated rapier and turns it into unique one.
-	result_item = /obj/item/rogueweapon/estoc/worttrager
-
-//Srusu - Custom dress type
-/obj/item/enchantingkit/srusu
-	name = "'Emerald Dress' morphing elixir"
-	target_items = list(/obj/item/clothing/suit/roguetown/shirt/dress)	//Literally any type of dress
-	result_item = /obj/item/clothing/suit/roguetown/shirt/dress/emerald
-
-//Strudle - Custom leather vest type
-/obj/item/enchantingkit/strudle
-	name = "'Grenzelhoft Mage Vest' morphing elixir"
-	target_items = list(/obj/item/clothing/suit/roguetown/shirt/robe)
-	result_item = /obj/item/clothing/suit/roguetown/shirt/robe/sofiavest
-
-//Bat - Custom harp type
-/obj/item/enchantingkit/bat
-	name = "'Handcrafted Harp' morphing elixir"
-	target_items = list(/obj/item/rogue/instrument/harp)
-	result_item = /obj/item/rogue/instrument/harp/handcarved
-
-//Rebel - Custom visored sallet type
-/obj/item/enchantingkit/rebel
-	name = "'Gilded Sallet' morphing elixir"
-	target_items = list(/obj/item/clothing/head/roguetown/helmet/sallet/visored)
-	result_item = /obj/item/clothing/head/roguetown/helmet/sallet/visored/gilded
-
-//Zydras donator item - bathmatron padded dress
-/obj/item/enchantingkit/zydras
-	name = "'Gold-Black silky dress morphing elixir"
-	target_items = list(/obj/item/clothing/suit/roguetown/shirt/dress/silkydress)
-	result_item = /obj/item/clothing/suit/roguetown/shirt/dress/silkydress/zydrasdress
