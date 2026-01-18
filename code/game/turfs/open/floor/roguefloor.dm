@@ -1693,7 +1693,7 @@
 	icon_state = "cracked[rand(1,5)]"
 
 /turf/open/floor/rogue/warmetal
-	icon_state = "metal1"
+	icon_state = "warmetal1"
 	landsound = 'sound/foley/jumpland/metalland.wav'
 	footstep = FOOTSTEP_PLATING
 	barefootstep = FOOTSTEP_HARD_BAREFOOT
@@ -1703,7 +1703,7 @@
 
 /turf/open/floor/rogue/warmetal/Initialize()
 	. = ..()
-	icon_state = "metal[rand(1,9)]"
+	icon_state = "warmetal[rand(1,9)]"
 
 /turf/open/floor/rogue/blackmetal
 	icon_state = "metal10"

@@ -5,6 +5,7 @@
 	droning_sound_dusk = 'sound/music/area/morning.ogg'
 	droning_sound_night = 'sound/music/area/sleeping.ogg'
 	converted_type = /area/rogue/outdoors/exposed/town
+	first_time_text = "OUTPOST XIPHOS"
 	town_area = TRUE
 
 /area/rogue/outdoors/exposed/perserdunbase

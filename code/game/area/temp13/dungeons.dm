@@ -5,6 +5,7 @@
 	droning_sound_dusk = null
 	droning_sound_night = null
 	converted_type = /area/rogue/outdoors/dungeon1
+	first_time_text = "THE MACHINE"
 
 /area/rogue/outdoors/warmachine
 	name = "warmachine outdoors"
