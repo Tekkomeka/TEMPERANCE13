@@ -673,7 +673,7 @@
 	dir = 4
 
 /turf/closed/wall/mineral/rogue/risvon/tshape
-	icon_state = "building_T"
+	icon_state = "building_M"
 
 /turf/closed/wall/mineral/rogue/risvon/tshape/dir1
 	dir = 1
