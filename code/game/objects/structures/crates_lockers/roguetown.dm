@@ -194,6 +194,39 @@
 	else
 		base_icon_state = "drawer1"
 		pixel_y = 8
+
+/obj/structure/closet/crate/drawer/filing
+	name = "filing cabinet"
+	desc = "For all of your red-tape needs."
+	icon_state = "filing1"
+	base_icon_state = "filing1"
+	open_sound = list('sound/foley/locker_open1.ogg', 'sound/foley/locker_open.ogg', 'sound/foley/lockerbig_open1.ogg')
+	close_sound = list('sound/foley/locker_close1.ogg', 'sound/foley/locker_close.ogg', 'sound/foley/lockerbig_close1.ogg')
+
+/obj/structure/closet/crate/drawer/filing/alt
+	icon_state = "filing2"
+	base_icon_state = "filing2"
+
+/obj/structure/closet/crate/drawer/filing/alt2
+	icon_state = "filing3"
+	base_icon_state = "filing3"
+
+/obj/structure/closet/crate/drawer/filing/alt3
+	icon_state = "filing4"
+	base_icon_state = "filing4"
+
+/obj/structure/closet/crate/drawer/filing/random
+	icon_state = "filing1"
+	base_icon_state = "filing1"
+
+/obj/structure/closet/crate/drawer/filing/random/Initialize()
+	. = ..()
+	if(icon_state == "filing1")
+		base_icon_state = "filing[rand(1,4)]"
+		icon_state = "[base_icon_state]"
+	else
+		base_icon_state = "filing1"
+
 /**
  * Closet preset for the duke ().
  * When opened for the first time by the ruler mob - spawns the blacksteel armor set.

@@ -126,6 +126,7 @@
 	icon_state = "bodiesflipped"
 
 //misc
+// as a side note, i just realized these should've been fluff structures instead of decals. sorry!
 /obj/effect/decal/crashed 
 	name = "cyclops"
 	desc = "51 61 132 15 41 121. The inside of the glass has a dried, blue fluid."
@@ -212,3 +213,22 @@
 	density = TRUE
 	icon = 'icons/roguetown/misc/decoration.dmi'
 	icon_state = "oldrobot"
+
+/obj/structure/fluff/medcurtain
+	name = "curtain"
+	desc = "A weird, transparent curtain."
+	icon = 'icons/roguetown/misc/decoration.dmi'
+	icon_state = "curtain"
+
+/obj/structure/fluff/medstand
+	name = "tank"
+	desc = "An empty metal tube hangs from the contraption."
+	icon = 'icons/roguetown/misc/decoration.dmi'
+	icon_state = "medical_stand"
+	density = FALSE
+
+/obj/structure/fluff/ivdrip
+	name = "drip"
+	desc = "The blood's long since coagulated."
+	icon = 'icons/roguetown/misc/decoration.dmi'
+	icon_state = "iv_drip"

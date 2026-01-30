@@ -508,3 +508,17 @@
 	desc = "Genuinely horrifying."
 	icon_state = "xbed_blood"
 	sleepy = 1
+
+/obj/structure/chair/bench/comfycouch
+	icon_state = "comfycoach_blackleft"
+
+/obj/structure/chair/bench/comfycouch/m
+	icon_state = "comfycoach_blackmid"
+
+/obj/structure/chair/bench/comfycouch/r
+	icon_state = "comfycoach_blackright"
+
+/obj/structure/chair/bench/comfychair //cbf'd to overlay this
+	icon_state = "comfychair_black"
+	icon = 'icons/roguetown/misc/structure.dmi'
+	item_chair = null
