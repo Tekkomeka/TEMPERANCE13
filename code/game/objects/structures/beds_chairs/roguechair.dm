@@ -510,6 +510,8 @@
 	sleepy = 1
 
 /obj/structure/chair/bench/comfycouch
+	name = "black cushions"
+	desc = "It's eaten through."
 	icon_state = "comfycoach_blackleft"
 
 /obj/structure/chair/bench/comfycouch/m
@@ -519,6 +521,8 @@
 	icon_state = "comfycoach_blackright"
 
 /obj/structure/chair/bench/comfychair //cbf'd to overlay this
+	name = "black chair"
+	desc = "It's seen better days."
 	icon_state = "comfychair_black"
 	item_chair = null
 

@@ -579,8 +579,8 @@
 	max_integrity = 1800
 	break_sound = 'sound/combat/hits/onstone/stonedeath.ogg'
 	attacked_sound = list('sound/combat/hits/onstone/wallhit.ogg', 'sound/combat/hits/onstone/wallhit2.ogg', 'sound/combat/hits/onstone/wallhit3.ogg')
-	above_floor = /turf/open/floor/rogue/rooftop //change once the sprites are done
-	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	above_floor = /turf/open/floor/rogue/generic
+	baseturfs = list(/turf/open/floor/rogue/generic)
 	neighborlay = "dirtedge"
 	climbdiff = 3
 
@@ -634,8 +634,8 @@
 	sheet_type = /obj/item/natural/stone
 	break_sound = 'sound/combat/hits/onstone/stonedeath.ogg'
 	attacked_sound = list('sound/combat/hits/onstone/wallhit.ogg', 'sound/combat/hits/onstone/wallhit2.ogg', 'sound/combat/hits/onstone/wallhit3.ogg')
-	above_floor = /turf/open/floor/rogue/rooftop //change once the sprites are done
-	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	above_floor = /turf/open/floor/rogue/risvon
+	baseturfs = list(/turf/open/floor/rogue/risvon)
 	neighborlay = "dirtedge"
 	climbdiff = 3
 
@@ -695,8 +695,8 @@
 	sheet_type = /obj/item/natural/stone
 	break_sound = 'sound/combat/hits/onmetal/sheet (1).ogg'
 	attacked_sound = list('sound/combat/hits/onmetal/attackpipewall (1).ogg','sound/combat/hits/onmetal/attackpipewall (2).ogg')
-	above_floor = /turf/open/floor/rogue/rooftop //change once the sprites are done
-	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	above_floor = /turf/open/floor/rogue/warmetal
+	baseturfs = list(/turf/open/floor/rogue/warmetal)
 	neighborlay = "dirtedge"
 	climbdiff = 3
 
@@ -805,8 +805,8 @@
 	break_sound = 'sound/combat/hits/onmetal/sheet (1).ogg'
 	attacked_sound = list('sound/combat/hits/onmetal/attackpipewall (1).ogg','sound/combat/hits/onmetal/attackpipewall (2).ogg')
 //	sheet_type = /obj/item/grown/log/tree/lumber
-	above_floor = /turf/open/floor/rogue/ruinedwood // change once the sprites are done
-	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	above_floor = /turf/open/floor/rogue/cracked
+	baseturfs = list(/turf/open/floor/rogue/cracked, /turf/open/floor/rogue/brown)
 	neighborlay = "dirtedge"
 	climbdiff = 3
 	spread_chance = 4
@@ -849,8 +849,8 @@
 	break_sound = 'sound/combat/hits/onmetal/sheet (1).ogg'
 	attacked_sound = list('sound/combat/hits/onmetal/attackpipewall (1).ogg','sound/combat/hits/onmetal/attackpipewall (2).ogg')
 //	sheet_type = /obj/item/grown/log/tree/lumber
-	above_floor = /turf/open/floor/rogue/ruinedwood // change once the sprites are done
-	baseturfs = list(/turf/open/floor/rogue/ruinedwood) // change once the sprites are done
+	above_floor = /turf/open/floor/rogue/warmetal
+	baseturfs = list(/turf/open/floor/rogue/warmetal)
 	neighborlay = "dirtedge"
 	climbdiff = 3
 	spread_chance = 4

@@ -4474,7 +4474,7 @@
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "Kq" = (
-/mob/living/simple_animal/hostile/rogue/mirespider_paralytic/angry,
+/mob/living/simple_animal/hostile/rogue/mirespider_paralytic,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "Kw" = (
