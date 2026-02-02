@@ -2,8 +2,8 @@
 	name = "warmachine"
 	icon_state = "spider"
 	droning_sound = 'sound/music/area/warmachine.ogg'
-	droning_sound_dusk = null
-	droning_sound_night = null
+	droning_sound_dusk = 'sound/music/area/warmachine.ogg'
+	droning_sound_night = 'sound/music/area/warmachine.ogg'
 	converted_type = /area/rogue/outdoors/dungeon1
 	first_time_text = "THE MACHINE"
 
@@ -11,6 +11,13 @@
 	name = "warmachine outdoors"
 	icon_state = "spidercave"
 	droning_sound = 'sound/music/area/warmachine.ogg'
-	droning_sound_dusk = null
-	droning_sound_night = null
+	droning_sound_dusk = 'sound/music/area/warmachine.ogg'
+	droning_sound_night = 'sound/music/area/warmachine.ogg'
 	ceiling_protected = TRUE
+
+/area/rogue/under/cave/umamusume
+	name = "umamusume"
+	icon_state = "spider"
+	droning_sound = 'sound/music/area/umamusume.ogg'
+	droning_sound_dusk = 'sound/music/area/umamusume.ogg'
+	droning_sound_night = 'sound/music/area/umamusume.ogg'
