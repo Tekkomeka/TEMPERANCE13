@@ -525,6 +525,10 @@
 	dir = 8;
 	pixel_y = 1
 	},
+/obj/structure/fluff/traveltile{
+	aportalgoesto = "factoryout";
+	aportalid = "factoryin"
+	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "hl" = (
@@ -1152,6 +1156,10 @@
 /obj/structure/stairs/stone{
 	dir = 8;
 	pixel_y = 1
+	},
+/obj/structure/fluff/traveltile{
+	aportalgoesto = "factoryout";
+	aportalid = "factoryin"
 	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)

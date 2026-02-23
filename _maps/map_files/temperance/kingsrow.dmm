@@ -152,6 +152,16 @@
 /obj/effect/decal/cleanable/dirt/grime/dust,
 /turf/open/floor/rogue/grime,
 /area/rogue/under/cave/warmachine)
+"dr" = (
+/obj/effect/decal/polishing{
+	pixel_y = 13;
+	density = 0
+	},
+/obj/structure/fluff/walldeco/vent/vent3{
+	pixel_y = 32
+	},
+/turf/open/floor/rogue/warmetal,
+/area/rogue/outdoors)
 "dz" = (
 /obj/effect/decal/skibidi{
 	dir = 8
@@ -332,6 +342,10 @@
 /obj/item/reagent_containers/glass/bucket/pot/teapot,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
+"hm" = (
+/obj/structure/mineral_door/wood/wardoor,
+/turf/closed/mineral/rogue/bedrock,
+/area/rogue/outdoors)
 "hr" = (
 /obj/structure/fluff/railing/wood/north{
 	dir = 4;
@@ -457,6 +471,16 @@
 "kj" = (
 /obj/structure/table/wood/large_table/north_east,
 /turf/open/floor/rogue/cobble,
+/area/rogue/outdoors)
+"kq" = (
+/obj/effect/decal/mailbox,
+/obj/effect/decal/ob,
+/obj/structure/fluff/walldeco/traumacon{
+	pixel_y = 25;
+	light_outer_range = 1
+	},
+/obj/effect/decal/cleanable/dirt/grime/dust,
+/turf/open/floor/rogue/warmetal,
 /area/rogue/outdoors)
 "kv" = (
 /obj/effect/decal/cobbleedge{
@@ -1018,6 +1042,17 @@
 	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue/outdoors)
+"zy" = (
+/obj/effect/decal/cutting{
+	plane = -6;
+	pixel_y = 16;
+	density = 0
+	},
+/obj/structure/chair/bench/comfychair{
+	dir = 2
+	},
+/turf/open/floor/rogue/warmetal,
+/area/rogue/outdoors)
 "zG" = (
 /obj/structure/flora/roguegrass/water/reeds,
 /turf/open/floor/rogue/dirt/road,
@@ -1275,6 +1310,16 @@
 "EN" = (
 /obj/structure/flora/roguegrass/water/reeds,
 /turf/open/floor/rogue/dirt,
+/area/rogue/outdoors)
+"EO" = (
+/obj/structure/stairs/stone{
+	dir = 2
+	},
+/obj/structure/fluff/traveltile{
+	aportalgoesto = "factoryin";
+	aportalid = "factoryout"
+	},
+/turf/open/floor/rogue/warmetal,
 /area/rogue/outdoors)
 "Fk" = (
 /turf/closed/wall/mineral/rogue/scary/end/east,
@@ -1589,6 +1634,11 @@
 /area/rogue/outdoors)
 "Ls" = (
 /turf/closed/wall/mineral/rogue/decostone/long/east_west,
+/area/rogue/outdoors)
+"LC" = (
+/obj/structure/table/wood/perserdunsmall/smallmetal3,
+/obj/structure/bars/shop,
+/turf/open/floor/rogue/warmetal,
 /area/rogue/outdoors)
 "LI" = (
 /obj/structure/table/wood/large_table/north,
@@ -53855,16 +53905,16 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 Ot
 Ot
 Ot
@@ -54082,16 +54132,16 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+oc
+dr
+LC
+ac
+ac
+QI
+ac
+ac
+EO
+oc
 Ot
 Ot
 Ot
@@ -54301,24 +54351,24 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+zy
+LC
+ac
+ac
+oc
+ac
+ac
+EO
+oc
 Ot
 Ot
 Ot
@@ -54528,6 +54578,24 @@ Ot
 Ot
 Ot
 Ot
+oc
+dr
+ac
+ac
+ac
+ac
+ac
+ac
+oc
+QI
+LC
+ac
+ac
+oc
+oc
+oc
+oc
+oc
 Ot
 Ot
 Ot
@@ -54541,31 +54609,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+DS
+hA
+RT
+lK
+lK
+Dh
+ac
 Ot
 Ot
 Ot
@@ -54755,6 +54805,20 @@ Ot
 Ot
 Ot
 Ot
+oc
+QA
+ac
+ac
+ac
+ac
+ac
+ac
+QI
+ac
+ac
+ac
+ac
+oc
 Ot
 Ot
 Ot
@@ -54772,27 +54836,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+jX
+xP
+nq
+lK
+lK
+Qc
+ac
 Ot
 Ot
 Ot
@@ -54982,6 +55032,20 @@ Ot
 Ot
 Ot
 Ot
+oc
+kq
+ac
+ac
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
+oc
 Ot
 Ot
 Ot
@@ -54999,27 +55063,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+QI
+lE
+CN
+Ob
+ls
+BS
+ac
 Ot
 Ot
 Ot
@@ -55209,6 +55259,11 @@ Ot
 Ot
 Ot
 Ot
+oc
+yk
+ac
+ac
+oc
 Ot
 Ot
 Ot
@@ -55235,18 +55290,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+oI
+sC
+ac
+ls
+ls
+LP
+ac
 Ot
 Ot
 Ot
@@ -55436,6 +55486,11 @@ Ot
 Ot
 Ot
 Ot
+oc
+QA
+ac
+ac
+oc
 Ot
 Ot
 Ot
@@ -55462,18 +55517,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+YP
+VK
+ac
+gs
+ac
+ac
+ac
 Ot
 Ot
 Ot
@@ -55663,6 +55713,11 @@ Ot
 Ot
 Ot
 Ot
+oc
+yk
+ac
+ac
+oc
 Ot
 Ot
 Ot
@@ -55686,21 +55741,16 @@ Ot
 Ot
 Ot
 Ot
+hm
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+dZ
+pG
+ac
+dz
+Mb
+ac
+ac
 Ot
 Ot
 Ot
@@ -55890,6 +55940,11 @@ Ot
 Ot
 Ot
 Ot
+oc
+oc
+oc
+QI
+oc
 Ot
 Ot
 Ot
@@ -55916,18 +55971,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+PY
+aO
+bQ
+oc
+dB
+sW
+ff
 Ot
 Ot
 Ot
@@ -56120,6 +56170,7 @@ Ot
 Ot
 Ot
 Ot
+wK
 Ot
 Ot
 Ot
@@ -56147,14 +56198,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+Ns
+Ca
+Cz
+Ks
+dR
+MB
+xy
 Ot
 Ot
 Ot
@@ -56375,13 +56425,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+yk
+Ts
+hw
+zu
+Fk
+ac
+ac
 Ot
 Ot
 Ot
@@ -56602,13 +56652,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+QA
+Au
+TD
+ac
+Bi
+ac
+ac
 Ot
 Ot
 Ot
@@ -56829,13 +56879,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+rx
+kY
+kZ
+ac
+Ee
+ac
+ac
 Ot
 Ot
 Ot
@@ -57056,13 +57106,13 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+ac
+RB
+Ku
+ac
+Zd
+ac
+ac
 Ot
 Ot
 Ot
