@@ -405,6 +405,7 @@
 /area/rogue/under/cave/warmachine)
 "fo" = (
 /obj/structure/closet/crate/drawer/filing/alt2,
+/obj/item/reagent_containers/glass/bottle/alchemical/meth,
 /turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
 "fv" = (
@@ -572,6 +573,11 @@
 /obj/structure/fluff/medstand,
 /obj/effect/decal/cleanable/dirt/grime,
 /turf/open/floor/rogue/grime,
+/area/rogue/under/cave/warmachine)
+"hH" = (
+/obj/structure/closet/crate/drawer/filing/alt2,
+/obj/item/reagent_containers/glass/bottle/alchemical/heroin,
+/turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
 "hJ" = (
 /obj/effect/decal/cleanable/dirt/grime,
@@ -1034,6 +1040,7 @@
 "pF" = (
 /obj/structure/closet/crate/drawer/filing/alt,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/medical,
+/obj/item/reagent_containers/glass/bottle/alchemical/meth,
 /turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
 "pJ" = (
@@ -1287,6 +1294,7 @@
 /obj/effect/decal/cleanable/dirt/grime/dust,
 /obj/effect/decal/cleanable/dirt/grime/grime4,
 /obj/effect/spawner/lootdrop/general_loot_mid,
+/obj/item/reagent_containers/glass/bottle/alchemical/meth,
 /turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
 "tY" = (
@@ -1334,6 +1342,13 @@
 	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/dungeon1)
+"uY" = (
+/obj/structure/table/wood/longreif{
+	dir = 2
+	},
+/obj/item/reagent_containers/glass/bottle/alchemical/meth,
+/turf/open/floor/rogue/grime,
+/area/rogue/under/cave/warmachine)
 "uZ" = (
 /obj/structure/closet/crate/roguecloset/metal/metal2{
 	plane = -5
@@ -1385,6 +1400,12 @@
 "wk" = (
 /turf/closed/mineral/rogue,
 /area/rogue/under/cave/warmachine)
+"wp" = (
+/obj/structure/closet/crate/drawer/filing/alt3,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/medical,
+/obj/item/reagent_containers/glass/bottle/alchemical/meth,
+/turf/open/floor/rogue/med,
+/area/rogue/under/cave/warmachine)
 "wy" = (
 /obj/effect/decal/cutting{
 	plane = -6;
@@ -1402,6 +1423,12 @@
 /area/rogue/under/cave/warmachine)
 "wJ" = (
 /turf/closed/wall/mineral/rogue/scary/horizontal,
+/area/rogue/under/cave/warmachine)
+"wL" = (
+/obj/structure/closet/crate/drawer/filing/alt3,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/medical,
+/obj/item/reagent_containers/glass/bottle/alchemical/heroin,
+/turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
 "wN" = (
 /obj/structure/chair/wood/rogue/generic1,
@@ -2312,11 +2339,13 @@
 /area/rogue/under/cave/umamusume)
 "LO" = (
 /obj/structure/table/wood/perserdunsmall/smallmetal3,
+/obj/item/reagent_containers/glass/bottle/alchemical/meth,
 /turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
 "LR" = (
 /obj/structure/closet/crate/drawer/filing,
 /obj/effect/spawner/lootdrop/roguetown/dungeon/medical,
+/obj/item/reagent_containers/glass/bottle/alchemical/meth,
 /turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
 "LS" = (
@@ -2941,6 +2970,7 @@
 "WF" = (
 /obj/structure/closet/crate/drawer/filing/alt3,
 /obj/effect/spawner/lootdrop/medicines,
+/obj/item/reagent_containers/glass/bottle/alchemical/heroin,
 /turf/open/floor/rogue/med,
 /area/rogue/under/cave/warmachine)
 "WQ" = (
@@ -30860,7 +30890,7 @@ Qs
 VU
 Jf
 fo
-fo
+hH
 VC
 FI
 FI
@@ -31311,7 +31341,7 @@ wJ
 dt
 dt
 Qs
-Xp
+wL
 Jf
 JK
 gM
@@ -32675,7 +32705,7 @@ Cd
 Qs
 VU
 Jf
-fo
+hH
 fo
 vv
 FI
@@ -37449,7 +37479,7 @@ FI
 FI
 FI
 wJ
-Xp
+wp
 Jf
 Xp
 Jf
@@ -39718,7 +39748,7 @@ FI
 FI
 wJ
 qT
-Pz
+uY
 Jf
 wJ
 FI
