@@ -60,6 +60,7 @@
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/pistols, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/sewing, 4, TRUE)
 	H.change_stat("constitution", 2)
 	H.change_stat("endurance", 2)
 	H.change_stat("perception", 2)

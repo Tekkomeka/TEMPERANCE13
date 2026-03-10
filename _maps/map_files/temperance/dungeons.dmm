@@ -787,7 +787,7 @@
 /area/rogue/under/cave/warmachine)
 "lb" = (
 /obj/structure/closet/crate/drawer/filing/alt3,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/gold/virtuepile,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "le" = (
@@ -1570,7 +1570,7 @@
 /obj/structure/closet/crate/roguecloset/metal/metal2{
 	plane = -5
 	},
-/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/gold/virtuepile,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/warmachine)
 "yv" = (
@@ -2131,7 +2131,7 @@
 	plane = -5
 	},
 /obj/effect/spawner/lootdrop/normalguns,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/silver/pile,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/warmachine)
 "IW" = (
@@ -2288,7 +2288,7 @@
 /obj/structure/closet/crate/roguecloset/metal{
 	pixel_x = 11
 	},
-/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/gold/pile,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "Le" = (
@@ -2612,8 +2612,8 @@
 	plane = -5
 	},
 /obj/structure/bars/grille,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/gold/virtuepile,
+/obj/item/roguecoin/gold/virtuepile,
 /turf/open/floor/rogue/redlight,
 /area/rogue/under/cave/warmachine)
 "QF" = (
@@ -3156,6 +3156,16 @@
 /area/rogue/under/cave/dungeon1)
 "ZH" = (
 /turf/open/floor/carpet/royalblack,
+/area/rogue/under/cave/warmachine)
+"ZP" = (
+/obj/structure/closet/crate/roguecloset/metal{
+	pixel_x = -7
+	},
+/obj/structure/closet/crate/roguecloset/metal{
+	pixel_x = 11
+	},
+/obj/item/roguecoin/silver/pile,
+/turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "ZV" = (
 /obj/structure/barbedwire,
@@ -14584,7 +14594,7 @@ FI
 FI
 FI
 zs
-KX
+ZP
 CY
 MD
 MD

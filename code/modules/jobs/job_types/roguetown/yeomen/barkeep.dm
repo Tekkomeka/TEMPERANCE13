@@ -1,7 +1,7 @@
 /datum/job/roguetown/barkeep
 	title = "Innkeeper"
 	flag = BARKEEP
-	department_flag = YEOMEN
+	department_flag = KINGSROW
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1

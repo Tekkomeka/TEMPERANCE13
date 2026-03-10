@@ -200,7 +200,7 @@
 	/datum/species/elf/wood,\
 	/datum/species/demihuman,\
 	/datum/species/tieberian,\
-	/datum/species/halfelf,\
+	/datum/species/human/halfelf,\
 )
 
 #define RACES_CONSCRIPT list(\
@@ -209,7 +209,7 @@
 	/datum/species/demihuman,\
 	/datum/species/tieberian,\
 	/datum/species/anthromorph,\
-	/datum/species/halfelf,\
+	/datum/species/human/halfelf,\
 )
 
 #define RACES_ALL_KINDS list(RACES_DESPISED, RACES_SHUNNED, RACES_TOLERATED, RACES_RESPECTED)
@@ -226,7 +226,7 @@
 	/datum/species/demihuman,\
 	/datum/species/tieberian,\
 	/datum/species/anthromorph,\
-	/datum/species/halfelf,\
+	/datum/species/human/halfelf,\
 )
 
 #define CLOTHED_RACES_TYPES list(\
@@ -235,7 +235,7 @@
 	/datum/species/demihuman,\
 	/datum/species/tieberian,\
 	/datum/species/anthromorph,\
-	/datum/species/halfelf,\
+	/datum/species/human/halfelf,\
 )
 // Non-dwarf non-kobold non-goblin mostly
 #define NON_DWARVEN_RACE_TYPES list(\

@@ -71,7 +71,7 @@
 	backl = /obj/item/gun/ballistic/rifle/repeater/perserdun
 	backr = /obj/item/storage/backpack/rogue/backpack/perserdun
 	backpack_contents = list(
-		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew = 2,
+		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew = 3,
 		/obj/item/ammo_box/handfuls/rifle = 4,
 		/obj/item/storage/belt/rogue/pouch/coins/poor,
 		/obj/item/gasgrenade = 2,
@@ -87,6 +87,8 @@
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/rifles, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 2, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)
 	H.change_stat("perception", 3)
 	H.change_stat("intelligence", 3)
 	H.change_stat("speed", 2)
@@ -112,6 +114,7 @@
 		/obj/item/storage/belt/rogue/pouch/coins/poor,
 		/obj/item/smokegrenade = 2,
 		/obj/item/natural/cloth,
+		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew,
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
@@ -123,6 +126,8 @@
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/rifles, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/sewing, 2, TRUE)
 	H.change_stat("perception", 3)
 	H.change_stat("intelligence", 3)
 	H.change_stat("speed", 2)

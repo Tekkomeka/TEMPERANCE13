@@ -44,6 +44,8 @@
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)
 	H.change_stat("constitution", 1)
 	H.change_stat("endurance", 1)
 	H.change_stat("perception", 2)
@@ -91,5 +93,5 @@
 		/obj/item/storage/belt/rogue/pouch/coins/mid,
 		/obj/item/storage/keyring/gatemaster,
 	)
-	H.adjust_skillrank(/datum/skill/combat/shotguns, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/rifles, 4, TRUE)
 

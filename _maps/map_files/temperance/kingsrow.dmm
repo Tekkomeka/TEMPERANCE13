@@ -332,6 +332,12 @@
 /obj/item/reagent_containers/food/snacks/rogue/cheddar,
 /turf/open/floor/rogue/blocks,
 /area/rogue/indoors/shelter/town)
+"bR" = (
+/obj/structure/mineral_door/wood/fancy{
+	lockid = "merchant"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
 "bU" = (
 /obj/structure/table/wood/long_table,
 /obj/item/roguekey/walls{
@@ -1874,6 +1880,9 @@
 /obj/structure/table/wood/large_table,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
+"mp" = (
+/turf/open/floor/rogue/concrete,
+/area/rogue/indoors/shelter/town)
 "mq" = (
 /obj/effect/decal/remains/corpse/body,
 /turf/open/floor/rogue/dirt/road,
@@ -1992,6 +2001,8 @@
 "ny" = (
 /obj/structure/table/church,
 /obj/machinery/light/rogue/wallfire/candle/floorcandle/pink,
+/obj/item/roguecoin/gold/pile,
+/obj/item/roguecoin/gold/pile,
 /turf/open/water/bloody,
 /area/rogue/outdoors)
 "nz" = (
@@ -2003,7 +2014,7 @@
 /area/rogue/under/cave)
 "nC" = (
 /obj/structure/table/wood,
-/obj/effect/spawner/lootdrop/roguetown/dungeon/money,
+/obj/item/roguecoin/silver/pile,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
 "nK" = (
@@ -2916,12 +2927,6 @@
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
-"tQ" = (
-/obj/structure/mineral_door/wood/fancy{
-	lockid = "merchant"
-	},
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/shelter/town)
 "tT" = (
 /obj/effect/decal/carpet/kover_black{
 	dir = 4;
@@ -3168,10 +3173,6 @@
 	dir = 8
 	},
 /turf/open/floor/rogue/brown,
-/area/rogue/indoors/shelter/town)
-"vP" = (
-/obj/machinery/light/rogue/wallfire/candle/weak,
-/turf/open/floor/rogue/concrete,
 /area/rogue/indoors/shelter/town)
 "vQ" = (
 /obj/structure/bed/rogue/inn/double,
@@ -3436,12 +3437,6 @@
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
-"xp" = (
-/obj/effect/landmark/observer_start,
-/turf/open/floor/rogue/blocks{
-	dir = 4
-	},
-/area/rogue/outdoors/town)
 "xr" = (
 /turf/open/floor/rogue/carpet,
 /area/rogue/indoors/shelter/town)
@@ -3654,6 +3649,10 @@
 	},
 /obj/structure/fluff/railing/border,
 /turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
+"zb" = (
+/obj/machinery/light/rogue/wallfire/candle/weak,
+/turf/open/floor/rogue/concrete,
 /area/rogue/indoors/shelter/town)
 "ze" = (
 /turf/open/water/swamp/deep,
@@ -4358,6 +4357,10 @@
 "DI" = (
 /turf/open/floor/rogue/snowrough,
 /area/rogue/outdoors)
+"DK" = (
+/obj/item/roguemachine/navigator,
+/turf/open/floor/rogue/concrete,
+/area/rogue/indoors/shelter/town)
 "DL" = (
 /obj/item/reagent_containers/food/snacks/rogue/meat/rabbit/fried{
 	rotprocess = 9999999
@@ -5187,10 +5190,6 @@
 	pixel_y = 0
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/shelter/town)
-"JU" = (
-/obj/item/roguemachine/navigator,
-/turf/open/floor/rogue/concrete,
 /area/rogue/indoors/shelter/town)
 "JW" = (
 /obj/effect/decal/cleanable/blood/drip{
@@ -6483,6 +6482,8 @@
 "Rm" = (
 /obj/structure/table/church/end,
 /obj/machinery/light/rogue/wallfire/candle/floorcandle/alt/pink,
+/obj/item/roguecoin/gold/pile,
+/obj/item/roguecoin/gold/pile,
 /turf/open/water/bloody,
 /area/rogue/outdoors)
 "Rq" = (
@@ -7172,6 +7173,12 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
+"Wp" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/rogue/blocks{
+	dir = 4
+	},
+/area/rogue/outdoors/town)
 "Wu" = (
 /obj/effect/decal/carpet/kover_darkred{
 	dir = 1;
@@ -7633,9 +7640,6 @@
 "ZW" = (
 /obj/effect/decal/carpet/square/black,
 /turf/open/floor/rogue/med,
-/area/rogue/indoors/shelter/town)
-"ZX" = (
-/turf/open/floor/rogue/concrete,
 /area/rogue/indoors/shelter/town)
 "ZY" = (
 /obj/structure/flora/roguetree/pine{
@@ -18039,9 +18043,9 @@ cq
 aT
 DG
 uf
-ZX
-ZX
-ZX
+mp
+mp
+mp
 uf
 jm
 jm
@@ -18265,10 +18269,10 @@ MZ
 aT
 aT
 aT
-tQ
-ZX
-JU
-ZX
+bR
+mp
+DK
+mp
 uf
 jm
 jm
@@ -18493,9 +18497,9 @@ aT
 aT
 Uc
 uf
-vP
-ZX
-ZX
+zb
+mp
+mp
 uf
 jm
 jm
@@ -70256,7 +70260,7 @@ nz
 nz
 nz
 fo
-xp
+Wp
 ii
 nz
 nz

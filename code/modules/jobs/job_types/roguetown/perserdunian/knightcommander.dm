@@ -58,6 +58,7 @@
 		/obj/item/storage/belt/rogue/pouch/coins/mid,
 		/obj/item/gasgrenade,
 		/obj/item/smokegrenade,
+		/obj/item/reagent_containers/glass/bottle/rogue/healthpotnew,
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
@@ -69,6 +70,8 @@
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/reading, 1, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/rifles, 4, TRUE)
+	H.adjust_skillrank(/datum/skill/craft/armorsmithing, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/misc/sewing, 3, TRUE)
 	H.change_stat("strength", 1)
 	H.change_stat("constitution", 2)
 	H.change_stat("endurance", 2)
