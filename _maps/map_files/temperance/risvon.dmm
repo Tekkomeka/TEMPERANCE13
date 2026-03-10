@@ -447,7 +447,7 @@
 /turf/open/floor/rogue/risvon,
 /area/rogue/outdoors/exposed/risvonbase)
 "eh" = (
-/turf/open/water/bath,
+/turf/open/water/cleanshallow,
 /area/rogue/indoors/risvonbase)
 "ej" = (
 /obj/machinery/light/rogue/torchholder/r,
@@ -577,10 +577,6 @@
 	pixel_x = 32
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/indoors/shelter/town/sargoth)
-"ft" = (
-/obj/effect/decal/cleanable/dirt/grime/dust,
-/turf/closed/wall/mineral/rogue/decowood,
 /area/rogue/indoors/shelter/town/sargoth)
 "fv" = (
 /obj/structure/chair/wood/rogue/chair4,
@@ -770,12 +766,6 @@
 /obj/structure/curtain/black,
 /turf/closed/wall/mineral/rogue/risvon,
 /area/rogue/indoors/risvonbasebar)
-"gZ" = (
-/obj/item/roguebin/crackers{
-	name = "CRACKERS"
-	},
-/turf/open/floor/rogue/risvon,
-/area/rogue/indoors/risvonbase)
 "ha" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/troll/cave{
 	desc = "I'm starved."
@@ -5971,6 +5961,10 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/risvonbase)
+"Wp" = (
+/obj/effect/decal/cleanable/dirt/grime/dust,
+/turf/closed/wall/mineral/rogue/decowood,
+/area/rogue/indoors/shelter/town/sargoth)
 "Wq" = (
 /obj/structure/table/wood/long_table/mid/alt,
 /obj/item/cooking/platter{
@@ -6292,6 +6286,12 @@
 "YR" = (
 /turf/closed/wall/mineral/rogue/risvon/end/east,
 /area/rogue/indoors/risvonbasebar)
+"YT" = (
+/obj/item/roguebin/crackers{
+	name = "CRACKERS"
+	},
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "YW" = (
 /obj/structure/table/wood/perserdunsmall,
 /obj/item/reagent_containers/glass/bottle/alchemical/heroin,
@@ -6363,6 +6363,21 @@
 /obj/item/reagent_containers/glass/cup/wooden,
 /obj/item/reagent_containers/glass/cup/wooden,
 /obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "ZF" = (
@@ -6971,7 +6986,7 @@ JW
 Da
 Xv
 Xi
-gZ
+YT
 QK
 Ea
 Ea
@@ -36629,7 +36644,7 @@ Lo
 Lo
 eR
 eR
-ft
+Wp
 KV
 yp
 ub

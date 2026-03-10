@@ -494,12 +494,27 @@
 /obj/item/cooking/platter{
 	pixel_y = -6
 	},
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
+/obj/item/reagent_containers/glass/bottle/waterskin,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "fF" = (
 /obj/structure/fluff/railing/border/north,
 /obj/structure/fluff/railing/border/west,
-/turf/open/water/bath,
+/turf/open/water/cleanshallow,
 /area/rogue/indoors/perserdunbase)
 "fK" = (
 /obj/structure/flora/roguetree/burnt{
@@ -544,6 +559,12 @@
 /turf/open/water/bloody{
 	desc = "Comforting to some."
 	},
+/area/rogue/indoors/perserdunbase)
+"gM" = (
+/obj/machinery/light/rogue/wallfire/candle/blue{
+	light_color = "#505f7a"
+	},
+/turf/closed/wall/mineral/rogue/perserdun/long,
 /area/rogue/indoors/perserdunbase)
 "gP" = (
 /obj/effect/decal/cleanable/dirt/grime/grime2,
@@ -1892,6 +1913,12 @@
 /obj/item/reagent_containers/glass/bottle/alchemical/heroin,
 /turf/open/floor/rogue/church,
 /area/rogue/indoors/perserdunbase)
+"zQ" = (
+/obj/item/roguebin/crackers{
+	name = "CRACKERS"
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "zX" = (
 /obj/structure/bed/rogue{
 	dir = 8
@@ -2073,6 +2100,10 @@
 /obj/structure/fluff/walldeco/sad{
 	pixel_y = 30
 	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
+"CE" = (
+/obj/machinery/light/rogue/firebowl/standing/blue,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "CJ" = (
@@ -3048,12 +3079,6 @@
 /obj/item/natural/feather,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/perserdunbase)
-"Qj" = (
-/obj/item/roguebin/crackers{
-	name = "CRACKERS"
-	},
-/turf/open/floor/rogue/perdun,
-/area/rogue/indoors/perserdunbase)
 "Qr" = (
 /turf/open/floor/rogue/warmetal,
 /area/rogue/outdoors/perserdun)
@@ -3100,10 +3125,8 @@
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/perserdunbase)
 "QZ" = (
-/obj/machinery/light/rogue/wallfire/candle/blue/r{
-	light_color = "#505f7a"
-	},
 /obj/effect/decal/cleanable/dirt/grime/dust,
+/obj/machinery/light/rogue/wallfire/candle/blue/r,
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
 "Rb" = (
@@ -3416,11 +3439,9 @@
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/perserdunbase)
 "Vh" = (
-/obj/structure/fluff/walldeco/compromise{
-	pixel_x = -30
-	},
-/obj/effect/decal/cleanable/debris/stony{
-	dir = 1
+/obj/structure/bars/shop,
+/obj/structure/table/wood/perserdunsmall{
+	pixel_y = -1
 	},
 /turf/open/floor/rogue/perdun,
 /area/rogue/indoors/perserdunbase)
@@ -16586,9 +16607,9 @@ Qd
 hS
 CQ
 Qd
-VK
-VK
-VK
+CE
+CQ
+tl
 Qd
 yY
 qs
@@ -16715,11 +16736,11 @@ jI
 Qd
 KX
 tl
-Qd
-VK
-VK
-VK
-Qd
+Dz
+CQ
+CQ
+tl
+Vh
 qs
 ML
 ML
@@ -16845,12 +16866,12 @@ jI
 Qd
 mR
 tl
-Qd
-VK
-VK
-VK
-Qd
-NY
+ma
+CQ
+CQ
+tl
+Vh
+yY
 ML
 ML
 ML
@@ -16975,11 +16996,11 @@ CQ
 Qd
 mR
 CQ
-Qd
-VK
-VK
-VK
-Qd
+zf
+CQ
+CQ
+tl
+Vh
 qs
 ML
 ML
@@ -17106,9 +17127,9 @@ Qd
 CQ
 CQ
 Qd
-VK
-VK
-VK
+CQ
+CQ
+tl
 Qd
 qs
 ML
@@ -17350,7 +17371,7 @@ HW
 CQ
 tl
 Qd
-Qj
+zQ
 CQ
 mN
 IE
@@ -17486,7 +17507,7 @@ CQ
 CQ
 qW
 qW
-Qj
+zQ
 Dz
 CQ
 CQ
@@ -18012,10 +18033,10 @@ Bb
 Bb
 Bb
 Bb
-ow
-Bb
-Bb
-Au
+lC
+CQ
+CQ
+Bw
 Bb
 Bb
 Bb
@@ -18142,14 +18163,14 @@ CQ
 vf
 eA
 CQ
-vf
-Vh
-Zp
 Qd
-VK
-VK
-VK
+CQ
+bn
 Qd
+CQ
+CQ
+tl
+Dz
 yY
 ML
 ML
@@ -18272,14 +18293,14 @@ CQ
 tk
 hW
 CQ
-tk
-hW
-Dm
 Qd
-VK
-VK
-VK
-Qd
+CQ
+bn
+Dz
+CQ
+CQ
+tl
+Vh
 qs
 ML
 ML
@@ -18402,15 +18423,15 @@ vf
 vf
 CQ
 tf
-vf
-vf
-vf
-Bw
-Bb
-Bb
-Bb
-lC
-NY
+Qd
+un
+CQ
+ma
+CQ
+CQ
+tl
+Vh
+yY
 ML
 ML
 ML
@@ -18532,14 +18553,14 @@ CQ
 vf
 CQ
 CQ
-vf
+Qd
 CQ
 xD
-Qd
-VK
-VK
-VK
-Qd
+zf
+CQ
+CQ
+tl
+Vh
 qs
 ML
 ML
@@ -18662,14 +18683,14 @@ CQ
 tk
 CQ
 CQ
-tk
+Qd
 CQ
-Dm
+bn
 Qd
-VK
-VK
-VK
-Qd
+CE
+CQ
+tl
+zf
 qs
 ML
 ML
@@ -18792,14 +18813,14 @@ vf
 vf
 Bu
 CQ
-vf
-vf
-vf
-Qd
-VK
-VK
-VK
-Qd
+rT
+gM
+Bb
+Au
+Bb
+Bb
+Bb
+lC
 qs
 ML
 ML

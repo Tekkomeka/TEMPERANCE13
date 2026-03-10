@@ -35,10 +35,12 @@
 	name = "12g shotgun slug"
 	damage = 70
 	spread = 2
+	armor_penetration = 15
 
 /obj/projectile/bullet/pellet/shotgun_buckshot
 	name = "buckshot pellet"
 	damage = 13.5
+	armor_penetration = 7
 
 // shotgun falloff
 /obj/projectile/bullet/pellet

@@ -160,7 +160,7 @@
 /obj/item/rogueweapon/stoneaxe/oath
 	force = 30
 	force_wielded = 40
-	possible_item_intents = list(/datum/intent/axe/cut/battle, /datum/intent/axe/chop/battle, /datum/intent/axe/bash, /datum/intent/spear/thrust/lance)
+	possible_item_intents = list(/datum/intent/axe/cut/battle, /datum/intent/axe/chop/battle, /datum/intent/mace/smash/eaglebeak, /datum/intent/spear/thrust)
 	name = "WILL"
 	desc = "A standard poleaxe adorned with Perserdun's colors. Crush the Ziggurate."
 	icon_state = "poleaxe"
@@ -176,7 +176,7 @@
 	bigboy = TRUE
 	gripsprite = TRUE
 	smeltresult = /obj/item/ingot/steel
-	gripped_intents = list(/datum/intent/axe/cut/battle ,/datum/intent/axe/chop/battle, /datum/intent/axe/bash)
+	gripped_intents = list(/datum/intent/axe/cut/battle ,/datum/intent/axe/chop/battle, /datum/intent/mace/smash/eaglebeak, /datum/intent/spear/thrust/lance)
 	minstr = 12
 	wdefense = 5
 

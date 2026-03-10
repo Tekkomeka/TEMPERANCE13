@@ -51,7 +51,7 @@
 	beltl = /obj/item/flashlight/flare/torch/lantern
 	beltr = /obj/item/storage/belt/rogue/pouch/ammobag
 	backl = /obj/item/rogueweapon/stoneaxe/oath
-	wrists = /obj/item/mattcoin
+	wrists = /obj/item/scomstone/empire
 	gloves = /obj/item/clothing/gloves/roguetown/plate/iron
 	id = /obj/item/roguekey/perserdun
 	backr = /obj/item/storage/backpack/rogue/backpack/perserdun

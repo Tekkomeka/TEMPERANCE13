@@ -689,6 +689,10 @@
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
+"dW" = (
+/obj/machinery/light/rogue/wallfire/candle/weak,
+/turf/open/floor/rogue/concrete,
+/area/rogue/indoors/shelter/town)
 "dZ" = (
 /turf/closed/mineral/rogue/bedrock,
 /area/rogue/outdoors/beach/forest/south)
@@ -1467,6 +1471,10 @@
 /obj/structure/mineral_door/swing_door,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
+"jc" = (
+/obj/item/roguemachine/navigator,
+/turf/open/floor/rogue/concrete,
+/area/rogue/indoors/shelter/town)
 "jd" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -2052,6 +2060,10 @@
 "og" = (
 /turf/open/floor/carpet/red,
 /area/rogue/outdoors)
+"ok" = (
+/obj/machinery/light/roguestreet/midlamp,
+/turf/open/floor/rogue/dirt/road,
+/area/rogue/outdoors/town)
 "om" = (
 /obj/structure/closet/crate/roguecloset/metal/metal2,
 /obj/item/gun/ballistic/revolver/pace,
@@ -2098,6 +2110,9 @@
 	layer = 2.8
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
+"ov" = (
+/turf/open/floor/rogue/concrete,
 /area/rogue/indoors/shelter/town)
 "ow" = (
 /turf/open/floor/rogue/twig,
@@ -2446,10 +2461,6 @@
 /obj/structure/bed/rogue/bloodybed,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/outdoors)
-"qv" = (
-/obj/machinery/light/rogue/wallfire/candle/weak,
-/turf/open/floor/rogue/concrete,
-/area/rogue/indoors/shelter/town)
 "qw" = (
 /obj/effect/decal/remains/corpse/body/body2,
 /turf/open/floor/rogue/cobble,
@@ -3095,6 +3106,12 @@
 /obj/structure/table/wood/poor,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
+"vq" = (
+/obj/structure/mineral_door/wood/fancy{
+	lockid = "merchant"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
 "vv" = (
 /obj/effect/decal/carpet/kover_black{
 	dir = 1;
@@ -3421,12 +3438,6 @@
 /obj/item/barbedwire,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
-"xm" = (
-/obj/effect/landmark/observer_start,
-/turf/open/floor/rogue/blocks{
-	dir = 4
-	},
-/area/rogue/outdoors/town)
 "xn" = (
 /obj/item/reagent_containers/glass/cup/wooden{
 	pixel_x = -8;
@@ -3549,6 +3560,13 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
+"xY" = (
+/obj/structure/fluff/traveltile{
+	aportalgoesto = "perserdun";
+	aportalid = "perserdunout"
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/beach/forest/south)
 "yc" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/item/reagent_containers/food/snacks/rogue/honey,
@@ -3556,12 +3574,6 @@
 /obj/item/reagent_containers/food/snacks/rogue/honey,
 /obj/item/reagent_containers/food/snacks/rogue/cheddar,
 /turf/open/floor/rogue/cobble,
-/area/rogue/indoors/shelter/town)
-"ye" = (
-/obj/structure/mineral_door/wood/fancy{
-	lockid = "merchant"
-	},
-/turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "yi" = (
 /obj/structure/fluff/walldeco/vent/vent3{
@@ -3883,13 +3895,6 @@
 /obj/item/rogueweapon/spear/militia,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
-"AC" = (
-/obj/structure/fluff/traveltile{
-	aportalgoesto = "perserdun";
-	aportalid = "perserdunout"
-	},
-/turf/open/floor/rogue/cobblerock,
-/area/rogue/outdoors/beach/forest/south)
 "AD" = (
 /obj/structure/vampire/necromanticbook{
 	pixel_x = -16;
@@ -4465,9 +4470,6 @@
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
-"Er" = (
-/turf/open/floor/rogue/concrete,
-/area/rogue/indoors/shelter/town)
 "Es" = (
 /obj/effect/spawner/lootdrop/ammo,
 /turf/open/floor/rogue/dirt/road,
@@ -4884,10 +4886,6 @@
 /obj/structure/flora/roguegrass/water/reeds,
 /turf/open/water/swamp/deep,
 /area/rogue)
-"Hm" = (
-/obj/item/roguemachine/navigator,
-/turf/open/floor/rogue/concrete,
-/area/rogue/indoors/shelter/town)
 "Hn" = (
 /obj/structure/bed/rogue{
 	dir = 8
@@ -4897,6 +4895,12 @@
 	},
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter/town)
+"Hq" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/rogue/blocks{
+	dir = 4
+	},
+/area/rogue/outdoors/town)
 "Hx" = (
 /obj/structure/table/wood/perserdunsmall/woodtablefine,
 /obj/effect/decal/carpet/square{
@@ -7343,6 +7347,10 @@
 /obj/structure/table/wood/metal3,
 /turf/open/floor/rogue/med,
 /area/rogue/indoors/shelter/town)
+"XK" = (
+/obj/machinery/light/roguestreet/midlamp,
+/turf/open/floor/rogue/grass,
+/area/rogue/outdoors/town)
 "XO" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/rogue/naturalstone,
@@ -18050,9 +18058,9 @@ cq
 aT
 DG
 uf
-Er
-Er
-Er
+ov
+ov
+ov
 uf
 jm
 jm
@@ -18276,10 +18284,10 @@ MZ
 aT
 aT
 aT
-ye
-Er
-Hm
-Er
+vq
+ov
+jc
+ov
 uf
 jm
 jm
@@ -18504,9 +18512,9 @@ aT
 aT
 Uc
 uf
-qv
-Er
-Er
+dW
+ov
+ov
 uf
 jm
 jm
@@ -60983,7 +60991,7 @@ uf
 PE
 Mb
 YH
-YH
+XK
 YH
 nz
 nz
@@ -63026,7 +63034,7 @@ Fk
 ZV
 jX
 nz
-nz
+ok
 YH
 YH
 YH
@@ -65727,7 +65735,7 @@ YH
 nz
 nz
 YH
-YH
+XK
 Cr
 uf
 rv
@@ -67767,7 +67775,7 @@ sA
 cq
 YH
 nz
-nz
+ok
 Ov
 ii
 nz
@@ -68001,7 +68009,7 @@ nz
 nz
 YH
 YH
-YH
+XK
 YH
 YH
 ii
@@ -68241,7 +68249,7 @@ ii
 ii
 Cr
 Cr
-YH
+XK
 nz
 Ir
 Ir
@@ -68252,7 +68260,7 @@ ii
 nz
 nz
 nz
-nz
+ok
 nz
 nz
 Ir
@@ -69142,17 +69150,17 @@ nz
 nz
 YH
 YH
+XK
 YH
 YH
 YH
-YH
 nz
 nz
 nz
 nz
 nz
 nz
-nz
+ok
 nz
 nz
 nz
@@ -69583,7 +69591,7 @@ az
 uf
 xB
 YH
-nz
+ok
 nz
 Ir
 Ir
@@ -69841,12 +69849,12 @@ nz
 nz
 YH
 nz
-nz
+ok
 nz
 fo
 Ir
 nz
-nz
+ok
 nz
 Cr
 Xs
@@ -70267,7 +70275,7 @@ nz
 nz
 nz
 fo
-xm
+Hq
 ii
 nz
 nz
@@ -71402,7 +71410,7 @@ Ov
 ii
 ii
 nz
-nz
+ok
 nz
 YH
 YH
@@ -71876,7 +71884,7 @@ wu
 YH
 wR
 YH
-nz
+ok
 ii
 ii
 nz
@@ -109756,16 +109764,16 @@ Ot
 Ot
 Ot
 Ot
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
-AC
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
+xY
 Ot
 Ot
 Ot

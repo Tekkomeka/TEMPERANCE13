@@ -45,7 +45,7 @@
 	cloak = /obj/item/clothing/cloak/perserduntabard
 	pants = /obj/item/clothing/under/roguetown/trou/artipants
 	mask = /obj/item/clothing/mask/rogue/gasmask/perserdunmask
-	wrists = /obj/item/mattcoin
+	wrists = /obj/item/scomstone/empire
 	neck = /obj/item/clothing/neck/roguetown/chaincoif
 	belt = /obj/item/storage/belt/rogue/leather/black
 
