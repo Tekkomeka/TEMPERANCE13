@@ -341,7 +341,7 @@
 	var/listening = TRUE
 	var/speaking = TRUE
 	var/messagereceivedsound = 'sound/misc/ris_radio.ogg'
-	var/hearrange = 1 // change to 0 if you want your special scomstone to be only hearable by wearer
+	var/hearrange = 0 // change to 0 if you want your special scomstone to be only hearable by wearer
 	drop_sound = 'sound/foley/coinphy (1).ogg'
 	sellprice = 100
 	grid_width = 32
@@ -424,6 +424,27 @@
 
 /obj/item/scomstone/bad/attack_right(mob/user)
 	return
+
+/obj/item/scomstone/empire
+
+	icon_state = "scomstoner1"
+	desc = "A wrist-mounted device used by the Empire."
+
+//needs testing
+/obj/item/scomstone/empire/attack_right(mob/living/carbon/human/user)
+	user.changeNext_move(CLICK_CD_INTENTCAP)
+	visible_message(span_notice ("[user] presses their radio against their mouth."))
+	var/input_text = input(user, "Enter your message:", "Message")
+	if(!input_text)
+		return
+	var/usedcolor = user.voice_color
+	if(user.voicecolor_override)
+		usedcolor = user.voicecolor_override
+	user.whisper(input_text)
+	if(length(input_text) > 100) //When these people talk too much, put that shit in slow motion, yeah
+		input_text = "<small>[input_text]</small>"
+	for(var/obj/item/scomstone/empire/S in SSroguemachine.scomm_machines)//make the listenstone hear scomstone
+		S.repeat_message(input_text, src, usedcolor)
 
 //LISTENSTONE		LISTENSTONE
 /obj/item/listenstone
@@ -512,6 +533,8 @@
 	muteinmouth = TRUE
 	var/listening = TRUE
 	var/speaking = TRUE
+	var/messagereceivedsound = 'sound/misc/per_radio.ogg'
+	var/hearrange = 0 
 	sellprice = 0
 	grid_width = 32
 	grid_height = 32
@@ -519,7 +542,10 @@
 
 /obj/item/mattcoin/attack_right(mob/living/carbon/human/user)
 	user.changeNext_move(CLICK_CD_INTENTCAP)
+	visible_message(span_notice ("[user] presses their radio against their mouth."))
 	var/input_text = input(user, "Enter your message:", "Message")
+	if(!input_text)
+		return
 	if(input_text)
 		var/usedcolor = user.voice_color
 		if(user.voicecolor_override)
@@ -553,7 +579,7 @@
 	if(tcolor)
 		voicecolor_override = tcolor
 	if(speaking && message)
-		playsound(loc, 'sound/misc/per_radio.ogg', 20, TRUE, -1)
+		playsound(loc, messagereceivedsound, 20, TRUE, -1)
 		say(message, language = message_language)
 	voicecolor_override = null
 

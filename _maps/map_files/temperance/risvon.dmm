@@ -1738,7 +1738,8 @@
 	dir = 8;
 	pixel_y = 0;
 	pixel_x = 8;
-	redstone_id = "risvongate"
+	redstone_id = "risvongate";
+	gid = "risvongate"
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
@@ -2597,7 +2598,8 @@
 	dir = 4;
 	pixel_y = 0;
 	pixel_x = -8;
-	redstone_id = "risvongate"
+	redstone_id = "risvongate";
+	gid = "risvongate"
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
@@ -4411,13 +4413,16 @@
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
 "JM" = (
-/obj/structure/mineral_door/bars,
+/obj/structure/mineral_door/bars{
+	lockid = "risvontag"
+	},
 /obj/effect/loretile/rostrumlemuria,
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/risvonbase)
 "JO" = (
 /obj/structure/gate/preopen{
-	redstone_id = "risvongate"
+	redstone_id = "risvongate";
+	gid = "risvongate"
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/risvonbase)
@@ -5264,6 +5269,9 @@
 "QK" = (
 /obj/structure/fluff/walldeco/commandant{
 	pixel_x = -32
+	},
+/obj/item/roguebin/crackers{
+	name = "CRACKERS"
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
@@ -6402,6 +6410,12 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/shelter/town/sargoth)
+"ZW" = (
+/obj/item/roguebin/crackers{
+	name = "CRACKERS"
+	},
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 
 (1,1,1) = {"
 Uh
@@ -6951,7 +6965,7 @@ JW
 Da
 Xv
 Xi
-xK
+ZW
 QK
 Ea
 Ea
@@ -13797,7 +13811,7 @@ Uh
 vM
 Zt
 QM
-qP
+By
 By
 By
 By
@@ -14057,7 +14071,7 @@ Uh
 lH
 By
 By
-qP
+By
 By
 By
 By

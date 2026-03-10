@@ -17,7 +17,7 @@
 /obj/projectile/bullet/a9mm
 	name = "9mm bullet"
 	icon_state = "bullet_proj"
-	damage = 50
+	damage = 60
 
 /obj/projectile/bullet/a44
 	name = ".44 bullet"

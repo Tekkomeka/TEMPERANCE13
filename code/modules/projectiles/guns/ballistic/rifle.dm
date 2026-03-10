@@ -163,10 +163,12 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/back_l.dmi'
 	experimental_inhand = FALSE
 	empty_indicator = TRUE
+	wdefense = 10
 
 /obj/item/gun/ballistic/rifle/repeater/perserdun
 	name = "SKT 'Order'"
 	desc = "A piece of shit reproduction rifle, trying to replicate those spat out by the WAR MACHINE. Made by Perserdunian forces."
+	defense
 	icon_state = "karabiner"
 	item_state = "karabiner"
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/perserdun

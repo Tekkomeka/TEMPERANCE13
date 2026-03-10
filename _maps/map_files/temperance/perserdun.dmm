@@ -1928,6 +1928,12 @@
 	},
 /turf/open/water/swamp/deep,
 /area/rogue/outdoors/perserdun)
+"Ag" = (
+/obj/item/roguebin/crackers{
+	name = "CRACKERS"
+	},
+/turf/open/floor/rogue/perdun,
+/area/rogue/indoors/perserdunbase)
 "Au" = (
 /turf/closed/wall/mineral/rogue/perserdun/center,
 /area/rogue/indoors/perserdunbase)
@@ -17338,7 +17344,7 @@ HW
 CQ
 tl
 Qd
-CQ
+Ag
 CQ
 mN
 IE
@@ -17474,7 +17480,7 @@ CQ
 CQ
 qW
 qW
-CQ
+Ag
 Dz
 CQ
 CQ

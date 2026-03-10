@@ -46,7 +46,7 @@
 	beltr = /obj/item/storage/belt/rogue/surgery_bag/full
 	head = /obj/item/clothing/head/roguetown/helmet/leather/envoy
 	mask = /obj/item/clothing/mask/rogue/gasmask/perserdunmask/envoy
-	wrists = /obj/item/scomstone
+	wrists = /obj/item/mattcoin
 	neck = /obj/item/storage/belt/rogue/pouch/coins/mid
 	gloves = /obj/item/clothing/gloves/roguetown/eastgloves1
 	id = /obj/item/roguekey/perserdun

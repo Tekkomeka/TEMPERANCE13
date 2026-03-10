@@ -73,7 +73,7 @@
 			var/datum/antagonist/zombie/Z = C.mind.has_antag_datum(/datum/antagonist/zombie)
 			if(Z && !Z.has_turned && !Z.revived && C.stat == DEAD)
 				C.infected = TRUE
-				wake_zombie(C, infected_wake = TRUE, converted = FALSE)
+				//wake_zombie(C, infected_wake = TRUE, converted = FALSE) zombies are kinda broken rn actually
 
 	var/findonerotten = FALSE
 	var/shouldupdate = FALSE

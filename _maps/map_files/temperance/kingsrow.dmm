@@ -1688,7 +1688,8 @@
 "kZ" = (
 /obj/structure/winch{
 	dir = 4;
-	redstone_id = "hierarchmansionout"
+	redstone_id = "hierarchmansionout";
+	gid = "hierarchmansionout"
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
@@ -1983,7 +1984,8 @@
 "nx" = (
 /obj/structure/winch{
 	dir = 8;
-	redstone_id = "hierarchmansionout"
+	redstone_id = "hierarchmansionout";
+	gid = "hierarchmansionout"
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
@@ -2914,6 +2916,12 @@
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
+"tQ" = (
+/obj/structure/mineral_door/wood/fancy{
+	lockid = "merchant"
+	},
+/turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
 "tT" = (
 /obj/effect/decal/carpet/kover_black{
 	dir = 4;
@@ -3160,6 +3168,10 @@
 	dir = 8
 	},
 /turf/open/floor/rogue/brown,
+/area/rogue/indoors/shelter/town)
+"vP" = (
+/obj/machinery/light/rogue/wallfire/candle/weak,
+/turf/open/floor/rogue/concrete,
 /area/rogue/indoors/shelter/town)
 "vQ" = (
 /obj/structure/bed/rogue/inn/double,
@@ -3424,6 +3436,12 @@
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
+"xp" = (
+/obj/effect/landmark/observer_start,
+/turf/open/floor/rogue/blocks{
+	dir = 4
+	},
+/area/rogue/outdoors/town)
 "xr" = (
 /turf/open/floor/rogue/carpet,
 /area/rogue/indoors/shelter/town)
@@ -3595,8 +3613,9 @@
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "yG" = (
-/obj/structure/gate{
-	redstone_id = "hierarchmansionout"
+/obj/structure/gate/preopen{
+	redstone_id = "hierarchmansionout";
+	gid = "hierarchmansionout"
 	},
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
@@ -5168,6 +5187,10 @@
 	pixel_y = 0
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
+/area/rogue/indoors/shelter/town)
+"JU" = (
+/obj/item/roguemachine/navigator,
+/turf/open/floor/rogue/concrete,
 /area/rogue/indoors/shelter/town)
 "JW" = (
 /obj/effect/decal/cleanable/blood/drip{
@@ -7610,6 +7633,9 @@
 "ZW" = (
 /obj/effect/decal/carpet/square/black,
 /turf/open/floor/rogue/med,
+/area/rogue/indoors/shelter/town)
+"ZX" = (
+/turf/open/floor/rogue/concrete,
 /area/rogue/indoors/shelter/town)
 "ZY" = (
 /obj/structure/flora/roguetree/pine{
@@ -17785,11 +17811,11 @@ pK
 kp
 aT
 aT
-uf
-jm
-jm
-jm
-jm
+cq
+sA
+sA
+sA
+cq
 jm
 jm
 jm
@@ -18013,10 +18039,10 @@ cq
 aT
 DG
 uf
-jm
-jm
-jm
-jm
+ZX
+ZX
+ZX
+uf
 jm
 jm
 jm
@@ -18239,11 +18265,11 @@ MZ
 aT
 aT
 aT
+tQ
+ZX
+JU
+ZX
 uf
-jm
-jm
-jm
-jm
 jm
 jm
 jm
@@ -18467,10 +18493,10 @@ aT
 aT
 Uc
 uf
-jm
-jm
-jm
-jm
+vP
+ZX
+ZX
+uf
 jm
 jm
 jm
@@ -18693,11 +18719,11 @@ KF
 VH
 aT
 qE
-uf
-jm
-jm
-jm
-jm
+cq
+sA
+sA
+sA
+cq
 jm
 jm
 jm
@@ -18920,7 +18946,7 @@ sA
 sA
 sA
 sA
-cq
+Jk
 jm
 jm
 jm
@@ -19147,7 +19173,7 @@ bl
 GX
 Dn
 Oi
-uf
+cq
 jm
 jm
 jm
@@ -70230,7 +70256,7 @@ nz
 nz
 nz
 fo
-ii
+xp
 ii
 nz
 nz

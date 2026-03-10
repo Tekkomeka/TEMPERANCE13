@@ -35,6 +35,7 @@
 		/obj/item/natural/worms/leech/cheele = 1,
 		/obj/item/reagent_containers/glass/bottle/waterskin = 1,
 		/obj/item/recipe_book/alchemy = 1,
+		/obj/item/flashlight/flare/torch/lantern = 1,
 	)
 	H.adjust_skillrank(/datum/skill/misc/reading, 5, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
