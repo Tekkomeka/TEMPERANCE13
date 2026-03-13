@@ -357,13 +357,8 @@
 	user.whisper(input_text)
 	if(length(input_text) > 100) //When these people talk too much, put that shit in slow motion, yeah
 		input_text = "<small>[input_text]</small>"
-	for(var/obj/structure/roguemachine/scomm/S in SSroguemachine.scomm_machines)
-		S.repeat_message(input_text, src, usedcolor)
 	for(var/obj/item/scomstone/S in SSroguemachine.scomm_machines)
 		S.repeat_message(input_text, src, usedcolor)
-	for(var/obj/item/listenstone/S in SSroguemachine.scomm_machines)//make the listenstone hear scomstone
-		S.repeat_message(input_text, src, usedcolor)
-	SSroguemachine.crown?.repeat_message(input_text, src, usedcolor)
 
 
 /obj/item/scomstone/MiddleClick(mob/user)
@@ -759,10 +754,6 @@
 			S.repeat_message(input_text, src, usedcolor)
 		for(var/obj/item/scomstone/garrison/S in SSroguemachine.scomm_machines)
 			S.repeat_message(input_text, src, usedcolor)
-		for(var/obj/structure/roguemachine/scomm/S in SSroguemachine.scomm_machines)
-			if(S.garrisonline)
-				S.repeat_message(input_text, src, usedcolor)
-		SSroguemachine.crown?.repeat_message(input_text, src, usedcolor)
 		return
 
 /obj/item/scomstone/bad/garrison
