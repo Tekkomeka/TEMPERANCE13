@@ -508,8 +508,8 @@
 
 	return
 
-// perserdunian radio
 
+// this currently isnt used in the game
 /obj/item/mattcoin
 	name = "communication device"
 	icon_state = "scomstoner1"
