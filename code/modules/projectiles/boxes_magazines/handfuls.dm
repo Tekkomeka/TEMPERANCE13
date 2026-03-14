@@ -7,7 +7,6 @@
 	multiload = 0
 	handful = TRUE
 
-
 //rifle handfuls
 /obj/item/ammo_box/handfuls/rifle
 	name = "handful of rifle bullets"
