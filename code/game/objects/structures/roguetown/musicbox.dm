@@ -17,6 +17,8 @@
 	"Life" = 'sound/music/jukeboxes/machine/machinelife.ogg',\
 	"Madness" = 'sound/music/jukeboxes/machine/machinemadness.ogg',\
 	"Rain" = 'sound/music/jukeboxes/machine/machinerain.ogg',\
+	"Down" = 'sound/music/jukeboxes/machine/machinedown.ogg',\
+	"Face" = 'sound/music/jukeboxes/machine/machineface.ogg',\
 ) // POP MUSIC ONLY FOR THE MACHINE -- NO CHUDMUSIC ALLOWED
 
 /datum/looping_sound/musloop
