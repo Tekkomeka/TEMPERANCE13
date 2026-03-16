@@ -2656,6 +2656,18 @@
 	},
 /turf/open/floor/rogue/metal/barograte,
 /area/rogue/indoors/risvonbase)
+"wi" = (
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_y = 27;
+	lockid = "risvontag"
+	},
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "wn" = (
 /obj/structure/table/optable,
 /obj/structure/roguemachine/goldface/public/organmachine{
@@ -12327,7 +12339,7 @@ ab
 xK
 xK
 Tx
-kW
+wi
 xK
 Tx
 rc
