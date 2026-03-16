@@ -2333,6 +2333,10 @@
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/risvonbase)
+"ti" = (
+/obj/machinery/light/rogue/firebowl/stump,
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/risvon)
 "tq" = (
 /obj/structure/mannequin/male{
 	layer = 5;
@@ -2655,18 +2659,6 @@
 	dir = 2
 	},
 /turf/open/floor/rogue/metal/barograte,
-/area/rogue/indoors/risvonbase)
-"wi" = (
-/obj/structure/closet/crate/roguecloset/dark{
-	pixel_y = 27;
-	lockid = "risvontag"
-	},
-/obj/item/rope/chain,
-/obj/item/rope/chain,
-/obj/item/rope/chain,
-/obj/item/rope/chain,
-/obj/item/rope/chain,
-/turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
 "wn" = (
 /obj/structure/table/optable,
@@ -5516,6 +5508,18 @@
 	},
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
+"RZ" = (
+/obj/structure/closet/crate/roguecloset/dark{
+	pixel_y = 27;
+	lockid = "risvontag"
+	},
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "Sd" = (
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbasebar)
@@ -6327,6 +6331,10 @@
 "YR" = (
 /turf/closed/wall/mineral/rogue/risvon/end/east,
 /area/rogue/indoors/risvonbasebar)
+"YS" = (
+/obj/machinery/light/rogue/firebowl,
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/risvon)
 "YT" = (
 /obj/item/roguebin/crackers{
 	name = "CRACKERS"
@@ -8470,7 +8478,7 @@ dd
 AX
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -9252,7 +9260,7 @@ Ba
 Ba
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -9638,7 +9646,7 @@ qd
 fn
 dd
 Hj
-Ba
+YS
 Ba
 Ba
 Ba
@@ -10158,7 +10166,7 @@ qd
 fn
 dd
 AX
-Ba
+YS
 Ba
 Ba
 dd
@@ -10296,7 +10304,7 @@ dd
 dd
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -10939,7 +10947,7 @@ fn
 dd
 AX
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -11468,7 +11476,7 @@ dd
 dd
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -11852,7 +11860,7 @@ Ba
 Ba
 Ba
 Ba
-Ba
+ti
 dd
 dd
 dd
@@ -12339,7 +12347,7 @@ ab
 xK
 xK
 Tx
-wi
+RZ
 xK
 Tx
 rc
@@ -12380,7 +12388,7 @@ dd
 dd
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -12894,7 +12902,7 @@ Ba
 Ba
 Ba
 Ba
-Ba
+ti
 Ba
 dd
 dd
@@ -13292,7 +13300,7 @@ dd
 dd
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 Ba
@@ -13676,7 +13684,7 @@ dd
 Ba
 Ba
 Ba
-Ba
+ti
 Ba
 Ba
 dd
