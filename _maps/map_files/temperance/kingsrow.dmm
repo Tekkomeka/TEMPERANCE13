@@ -1163,6 +1163,10 @@
 /obj/structure/bookcase,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
+"gv" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
+/turf/closed/mineral/rogue,
+/area/rogue/under/cave)
 "gz" = (
 /obj/structure/rack/rogue,
 /obj/effect/spawner/lootdrop/medicines,
@@ -1313,10 +1317,6 @@
 "hA" = (
 /obj/structure/mineral_door/wood/fancy,
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/outdoors)
-"hE" = (
-/obj/item/reagent_containers/food/snacks/deadmouse,
-/turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
 "hF" = (
 /obj/effect/mine/explosive,
@@ -1481,6 +1481,10 @@
 "iU" = (
 /turf/open/floor/rogue/grasscold,
 /area/rogue/outdoors/beach/forest/south)
+"iV" = (
+/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
+/turf/open/floor/rogue/grassyel,
+/area/rogue/outdoors/beach/forest/south)
 "iW" = (
 /obj/effect/decal/cleanable/blood/drip{
 	icon_state = "floor6"
@@ -1577,10 +1581,6 @@
 "jO" = (
 /turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/town)
-"jR" = (
-/obj/item/reagent_containers/food/snacks/deadmouse,
-/turf/open/floor/rogue/cobble,
-/area/rogue/outdoors/beach/forest/south)
 "jV" = (
 /obj/structure/bed/rogue/inn/double,
 /obj/item/bedsheet/rogue/double_pelt,
@@ -1932,6 +1932,10 @@
 /obj/structure/chair/stool/rogue,
 /turf/open/floor/carpet/red,
 /area/rogue/indoors/shelter/town)
+"mv" = (
+/obj/item/reagent_containers/food/snacks/deadmouse,
+/turf/open/floor/rogue/cobble,
+/area/rogue/outdoors/beach/forest/south)
 "mx" = (
 /obj/item/rogueweapon/pick/militia/steel,
 /obj/structure/rack/rogue,
@@ -3762,10 +3766,6 @@
 /mob/living/simple_animal/hostile/rogue/skeleton/bow,
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
-"zg" = (
-/obj/item/reagent_containers/food/snacks/deadmouse,
-/turf/open/floor/rogue/dirt,
-/area/rogue/outdoors/beach/forest/south)
 "zk" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
@@ -3894,6 +3894,10 @@
 	},
 /turf/closed/wall/mineral/rogue/kingsrow/end,
 /area/rogue/indoors/shelter/town)
+"Ad" = (
+/obj/item/reagent_containers/food/snacks/deadmouse,
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/beach/forest/south)
 "Af" = (
 /obj/structure/rack/rogue/shelf/big{
 	icon_state = "shelf_biggest";
@@ -4188,10 +4192,6 @@
 /obj/structure/flora/roguegrass/herb/rosa,
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors)
-"BY" = (
-/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
-/turf/closed/mineral/rogue,
-/area/rogue/under/cave)
 "Ca" = (
 /obj/structure/fluff/railing/border/east,
 /obj/structure/fluff/railing/border/west,
@@ -4302,6 +4302,10 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/rogue/grass,
 /area/rogue/outdoors)
+"CS" = (
+/obj/machinery/light/roguestreet/midlamp,
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/town)
 "CU" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /turf/open/floor/rogue/cobble,
@@ -4970,6 +4974,10 @@
 	},
 /turf/open/floor/rogue/twig,
 /area/rogue/indoors/shelter/town)
+"Hp" = (
+/obj/item/reagent_containers/food/snacks/deadmouse,
+/turf/open/floor/rogue/cobble,
+/area/rogue/outdoors)
 "Hx" = (
 /obj/structure/table/wood/perserdunsmall/woodtablefine,
 /obj/effect/decal/carpet/square{
@@ -7397,10 +7405,6 @@
 /obj/structure/handcart,
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
-"WZ" = (
-/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,
-/turf/open/floor/rogue/grassyel,
-/area/rogue/outdoors/beach/forest/south)
 "Xa" = (
 /obj/structure/fluff/pillow/magenta{
 	pixel_x = 2;
@@ -16871,7 +16875,7 @@ md
 TY
 TY
 TY
-BY
+gv
 aX
 TY
 aX
@@ -62322,7 +62326,7 @@ xP
 Hf
 tn
 tn
-WZ
+iV
 Hf
 Hf
 Hf
@@ -65081,7 +65085,7 @@ xP
 xP
 Hf
 Hf
-zg
+Ad
 Hf
 Hf
 Hf
@@ -65150,7 +65154,7 @@ xP
 Zm
 xP
 Hf
-WZ
+iV
 Hf
 xP
 hc
@@ -65279,7 +65283,7 @@ Hf
 xP
 Hf
 Hf
-WZ
+iV
 Hf
 xP
 tn
@@ -68679,7 +68683,7 @@ xP
 Hf
 Hf
 Hf
-WZ
+iV
 Hf
 Hf
 hc
@@ -69042,7 +69046,7 @@ tn
 tn
 tn
 tn
-zg
+Ad
 xP
 tn
 tn
@@ -73707,7 +73711,7 @@ Hf
 Hf
 Hf
 Hf
-WZ
+iV
 Hf
 Hf
 tn
@@ -75414,10 +75418,10 @@ Ot
 Ot
 Ot
 Mo
-Cr
+CS
 jO
 jO
-Cr
+CS
 Mo
 Ot
 Ot
@@ -76224,7 +76228,7 @@ hc
 xP
 xP
 Hf
-WZ
+iV
 Hf
 Hf
 Hf
@@ -78051,7 +78055,7 @@ tn
 hc
 xP
 Hf
-WZ
+iV
 Hf
 Hf
 xP
@@ -80600,7 +80604,7 @@ xP
 xP
 xP
 QI
-jR
+mv
 QI
 Xp
 xP
@@ -90609,7 +90613,7 @@ xP
 xP
 Xp
 QI
-jR
+mv
 EL
 tn
 Xp
@@ -94323,7 +94327,7 @@ ej
 xK
 SL
 xK
-hE
+Hp
 SL
 SL
 ej
@@ -99925,7 +99929,7 @@ Hf
 tn
 tn
 Hf
-WZ
+iV
 Hf
 Hf
 Hf
