@@ -288,7 +288,8 @@
 #define JDO_BULWARK 3.1
 #define JDO_PROVISIONER 3.2
 #define JDO_MORTICIAN 3.3
-#define JDO_TOWNER 3.4
+#define JDO_BARKEEP 3.4
+#define JDO_TOWNER 3.5
 
 // UNAFFILIATED
 #define JDO_FOREIGNER 4

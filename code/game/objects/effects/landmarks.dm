@@ -145,6 +145,12 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	name = "Barkeep"
 	icon_state = "arrow"
 
+/obj/effect/landmark/start/barkeeplate
+	name = "Barkeep"
+	icon_state = "arrow"
+	jobspawn_override = list("Barkeep")
+	delete_after_roundstart = FALSE
+
 /obj/effect/landmark/start/cook
 	name = "Cook"
 	icon_state = "arrow"
