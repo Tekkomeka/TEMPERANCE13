@@ -114,3 +114,20 @@
 	recoil = 0.15
 	semi_auto = TRUE
 	slot_flags = ITEM_SLOT_BACK
+
+
+/obj/item/gun/ballistic/pistol/fury
+	name = "Fury"
+	desc = "One of the rarer variants of the semi auto pistols found in the wild, this one's got a seven-round magazine, firing some decent rounds out of it too. Looks intimidating."
+	icon_state = "colt"
+	item_state = "colt"
+	w_class = WEIGHT_CLASS_SMALL
+	mag_type = /obj/item/ammo_box/magazine/jackal
+	slowdown = 0.15
+	spread = 0.5
+	pump_sound = 'sound/combat/ranged/pistol_cock.ogg'
+	fire_sound = PISTOLSHOT
+	load_sound = 'sound/combat/ranged/pistol_magin.ogg'
+	eject_sound = 'sound/combat/ranged/pistol_magout.ogg'
+	recoil = 0.15
+	semi_auto = TRUE

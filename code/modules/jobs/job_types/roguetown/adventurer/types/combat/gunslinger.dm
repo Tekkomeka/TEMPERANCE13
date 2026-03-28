@@ -76,8 +76,9 @@
 			neck = /obj/item/clothing/neck/roguetown/gorget
 			gloves = /obj/item/clothing/gloves/roguetown/fingerless_leather
 			backl = /obj/item/storage/backpack/rogue/satchel
-			backr = /obj/item/storage/belt/rogue/pouch/coins/poor
+			backr = 
 			belt = /obj/item/storage/belt/rogue/leather
+			head = /obj/item/clothing/head/roguetown/puritan
 			backpack_contents = list(
 				/obj/item/lockpick = 1, 
 				/obj/item/rogueweapon/huntingknife = 1, 
@@ -86,6 +87,7 @@
 				/obj/item/ammo_box/magazine/jackal = 2,
 				/obj/item/flashlight/flare/torch = 1,
 				/obj/item/storage/belt/rogue/pouch/coins/rich = 1,
+				/obj/item/storage/belt/rogue/pouch/coins/poor = 1,
 				)
 			H.adjust_skillrank(/datum/skill/misc/tracking, 3, TRUE)
 			H.adjust_skillrank(/datum/skill/combat/pistols, 2, TRUE)
