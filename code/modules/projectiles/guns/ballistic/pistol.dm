@@ -150,7 +150,7 @@
 
 /obj/item/gun/ballistic/pistol/offiseroluger
 	name = "KR 'Galinha'"
-	desc = "In the war between the Ziggurate and the Perserdun Empire, Kings row supplies both sides, as long as both agree to leave them out of the mess, this pistol is a product of those supplies, having been made specifically for high ranking Offiseros."
+	desc = "In the war between the Ziggurate and the Perserdun Empire, Kings row supplies both sides, as long as both agree to leave them out of the mess, this pistol is an old relic of those supplies. Given to them many years ago, the words spoken before handing over those pieces of overpolished black metal have been long forgotten."
 	icon_state = "luger"
 	item_state = "luger"
 	w_class = WEIGHT_CLASS_SMALL
