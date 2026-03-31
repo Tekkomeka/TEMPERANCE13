@@ -1,6 +1,6 @@
 /datum/advclass/gunslinger
 	name = "Gunslinger"
-	tutorial = "Embracers of the modern day. Relies on guns, skills, and some armor."
+	tutorial = "Embracers of the modern day. Relies on guns, skills, and some armor, sometimes none."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_CONSCRIPT
 	outfit = /datum/outfit/job/roguetown/adventurer/gunslinger
@@ -62,10 +62,10 @@
 		if("Debt Collector")
 			
 			to_chat(H, span_warning("Here to collect someone's debt or make sure someone's gonna be owin' ya, you've got the dosh to lend and the muscle to retrieve. Try not to make too many enemies though, if anything, it's a safe bet to work with the Provisioner, after all, they've got the most coin in this shitty town anyways."))
-			armor = /obj/item/clothing/suit/roguetown/armor/leather
+			armor = /obj/item/clothing/suit/roguetown/shirt/undershirt/puritan
 			cloak = /obj/item/clothing/suit/roguetown/armor/longcoat
 			wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
-			shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/black
+			shirt = /obj/item/clothing/suit/roguetown/armor/gambeson
 			pants = /obj/item/clothing/under/roguetown/trou/leather
 			beltl = /obj/item/gun/ballistic/pistol/fury
 			beltr = /obj/item/rogueweapon/knuckles
@@ -112,7 +112,7 @@
 			armor = /obj/item/clothing/suit/roguetown/armor/leather
 			cloak = /obj/item/clothing/cloak/tabard
 			wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
-			shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/black
+			shirt = /obj/item/clothing/suit/roguetown/armor/leather/vest,
 			pants = /obj/item/clothing/under/roguetown/trou/leather
 			beltl = /obj/item/storage/belt/rogue/pouch/coins/poor
 			beltr = /obj/item/gun/ballistic/revolver/doublebarrel
