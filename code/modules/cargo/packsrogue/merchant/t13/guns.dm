@@ -39,14 +39,14 @@
 				)
 
 /datum/supply_pack/rogue/firearms/luger
-	name = "KR 'Confessor'"
+	name = "KR 'Confessor' Pistol"
 	cost = 85
 	contains = list(
 					/obj/item/gun/ballistic/pistol/luger,
 				)
 
 /datum/supply_pack/rogue/firearms/artyluger
-	name = "KR 'Preacher'"
+	name = "KR 'Preacher' Stocked Pistol"
 	cost = 180
 	contains = list(
 					/obj/item/gun/ballistic/pistol/artyluger,

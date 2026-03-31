@@ -4,22 +4,21 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_CONSCRIPT
 	outfit = /datum/outfit/job/roguetown/adventurer/gunslinger
-	traits_applied = list(TRAIT_OUTLANDER)
-	category_tags = list(CTAG_ADVENTURER, CTAG_COURTAGENT)
-	classes = list("Debt Collector" = "Here to collect someone's debt or make sure someone's gonna be owin' ya, you've got the dosh to lend and the muscle to retrieve.",
-					"Private Investigator" = "Sent here by someone lookin' for something or just passin' buy for a job, whatever it may be, your best pal in all of this is your revolver.",
-					"Old-Boy" = "Maybe you inherited your old man's hunting rifle, or bought your own. Try to make something memorable.")
+	category_tags = list(CTAG_PILGRIM, CTAG_TOWNER)
+	classes = list("Private Investigator" = "Sent here by someone lookin' for something or just passin' buy for a job, really anything that can get you by for another day whatever it may be, your best pal in all of this is your revolver, and that inquisitive mind of yours. The folks in need of your services are usually the ones who have no one else to turn to, so try not to let them down.",
+					"Debt Collector" = "Here to collect someone's debt or make sure someone's gonna be owin' ya, you've got the dosh to lend and the muscle to retrieve. Try not to make too many enemies though, if anything, it's a safe bet to work with the Provisioner, after all, they've got the most coin in this shitty town anyways.",
+					"Old-Boy" = "Maybe you inherited your old man's hunting rifle, or bought your own. Maybe you just wanna go out there and shoot something, be a hunter, or maybe you wanna be a mercenary for hire, whatever it is, try to make a name for yourself out there.")
 
 /datum/outfit/job/roguetown/adventurer/gunslinger/pre_equip(mob/living/carbon/human/H)
 	..()
 	H.adjust_blindness(-3)
-	var/classes = list("Private Investigator","Debt Collector","Gangster","Old-Boy")
+	var/classes = list("Private Investigator","Debt Collector","Old-Boy")
 	var/classchoice = input("Choose your archetypes", "Available archetypes") as anything in classes
 
 	switch(classchoice)
 
 		if("Private Investigator")
-			to_chat(H, span_warning("Sent here by someone lookin' for something or just passin' buy for a job, whatever it may be, your best pal in all of this is your revolver."))
+			to_chat(H, span_warning("Sent here by someone lookin' for something or just passin' buy for a job, really anything that can get you by for another day whatever it may be, your best pal in all of this is your revolver, and that inquisitive mind of yours. The folks in need of your services are usually the ones who have no one else to turn to, so try not to let them down."))
 			armor = /obj/item/clothing/suit/roguetown/armor/leather
 			backl = /obj/item/storage/backpack/rogue/satchel
 			shoes = /obj/item/clothing/shoes/roguetown/boots
@@ -34,15 +33,14 @@
 			head = /obj/item/clothing/head/roguetown/inqhat
 			backpack_contents = list(
 				/obj/item/flashlight/flare/torch = 1,
-				/obj/item/rogueweapon/huntingknife/idagger/steel = 1,
+				/obj/item/rogueweapon/mace/cudgel = 1,
 				/obj/item/lockpickring/mundane = 1,
 				/obj/item/ammo_box/speedloader/magnum = 3,
-				/obj/item/rogueweapon/scabbard/sheath = 1,
 				)
 			H.adjust_skillrank(/datum/skill/misc/tracking, 4, TRUE)
-			H.adjust_skillrank(/datum/skill/combat/knives, 3, TRUE)
+			H.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
 			H.adjust_skillrank(/datum/skill/combat/revolvers, 3, TRUE)
-			H.adjust_skillrank(/datum/skill/combat/maces, 2, TRUE)
+			H.adjust_skillrank(/datum/skill/combat/maces, 3, TRUE)
 			H.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 			H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 			H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
@@ -53,8 +51,7 @@
 			H.adjust_skillrank(/datum/skill/misc/stealing, 4, TRUE)
 			H.adjust_skillrank(/datum/skill/misc/lockpicking, 4, TRUE)
 			H.adjust_skillrank(/datum/skill/craft/traps, 4, TRUE)
-			ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
-			H.change_stat("strength", -1)
+			ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC, TRAIT_NIGHT_OWL)
 			H.change_stat("intelligence", 2)
 			H.change_stat("perception", 2)
 			H.change_stat("speed", 3)
@@ -64,7 +61,7 @@
 
 		if("Debt Collector")
 			
-			to_chat(H, span_warning("Here to collect someone's debt or make sure someone's gonna be owin' ya, you've got the dosh to lend and the muscle to retrieve."))
+			to_chat(H, span_warning("Here to collect someone's debt or make sure someone's gonna be owin' ya, you've got the dosh to lend and the muscle to retrieve. Try not to make too many enemies though, if anything, it's a safe bet to work with the Provisioner, after all, they've got the most coin in this shitty town anyways."))
 			armor = /obj/item/clothing/suit/roguetown/armor/leather
 			cloak = /obj/item/clothing/suit/roguetown/armor/longcoat
 			wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
@@ -100,18 +97,18 @@
 			H.adjust_skillrank(/datum/skill/misc/stealing, 3, TRUE)
 			H.adjust_skillrank(/datum/skill/misc/lockpicking, 3, TRUE)
 			H.adjust_skillrank(/datum/skill/craft/traps, 3, TRUE)
-			ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
-			H.change_stat("strength", -1)
-			H.change_stat("intelligence", 1)
+			ADD_TRAIT(H, TRAIT_CIVILIZEDBARBARIAN, TRAIT_GENERIC)
+			H.change_stat("strength", 2)
+			H.change_stat("intelligence", -1)
 			H.change_stat("perception", 1)
-			H.change_stat("endurance", 1)
-			H.change_stat("speed", 3)
+			H.change_stat("endurance", 2)
+			H.change_stat("speed", 1)
 			H.set_blindness(0)
 			H.cmode_music = 'sound/music/cmode/adventurer/combat_debt.ogg'
 
 		if("Old-Boy")
 			
-			to_chat(H, span_warning("Maybe you inherited your old man's hunting rifle, or bought your own. Try to make something memorable."))
+			to_chat(H, span_warning("Maybe you inherited your old man's hunting rifle, or bought your own. Maybe you just wanna go out there and shoot something, be a hunter, or maybe you wanna be a mercenary for hire, whatever it is, try to make a name for yourself out there."))
 			armor = /obj/item/clothing/suit/roguetown/armor/leather
 			cloak = /obj/item/clothing/cloak/tabard
 			wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
@@ -134,7 +131,7 @@
 				/obj/item/flashlight/flare/torch = 1,
 				)
 			H.adjust_skillrank(/datum/skill/misc/tracking, 3, TRUE)
-			H.adjust_skillrank(/datum/skill/combat/shotguns, 2, TRUE)
+			H.adjust_skillrank(/datum/skill/combat/rifles, 3, TRUE)
 			H.adjust_skillrank(/datum/skill/misc/swimming, 3, TRUE)
 			H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 			H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
@@ -147,7 +144,7 @@
 			H.adjust_skillrank(/datum/skill/craft/traps, 3, TRUE)
 			ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 			H.change_stat("strength", -1)
-			H.change_stat("perception", 1)
+			H.change_stat("perception", 2)
 			H.change_stat("endurance", 1)
 			H.change_stat("speed", 3)
 			H.set_blindness(0)
