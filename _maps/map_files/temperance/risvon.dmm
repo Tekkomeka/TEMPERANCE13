@@ -1000,6 +1000,10 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/exposed/risvonbase)
+"iQ" = (
+/obj/structure/barbedwire,
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/risvon)
 "iR" = (
 /obj/structure/flora/rogueflora/nettles{
 	desc = ""
@@ -1025,6 +1029,13 @@
 	},
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"jc" = (
+/obj/structure/barbedwire{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/outdoors/risvon)
 "jf" = (
 /obj/effect/decal/cobbleedge{
 	pixel_y = 25;
@@ -2284,12 +2295,9 @@
 /area/rogue/indoors/risvonbasebar)
 "su" = (
 /obj/effect/decal/cobbleedge{
-	dir = 6
-	},
-/obj/effect/decal/cobbleedge{
 	dir = 10
 	},
-/turf/open/floor/rogue/dirt/road,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/risvon)
 "sv" = (
 /obj/effect/decal/carpet/square/black{
@@ -3061,10 +3069,7 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10
 	},
-/obj/effect/decal/cobbleedge{
-	dir = 6
-	},
-/turf/open/floor/rogue/dirt/road,
+/turf/open/floor/rogue/cobble,
 /area/rogue/outdoors/risvon)
 "zy" = (
 /obj/structure/fluff/walldeco/ugly{
@@ -3121,6 +3126,10 @@
 /obj/machinery/light/rogue/wallfire/candle/l,
 /turf/open/floor/rogue/risvon,
 /area/rogue/indoors/risvonbase)
+"zT" = (
+/obj/structure/barbedwire,
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/risvon)
 "zW" = (
 /obj/effect/decal/cobbleedge{
 	pixel_y = 0;
@@ -3814,6 +3823,13 @@
 /obj/structure/fluff/railing/sandbag,
 /turf/open/floor/rogue/metal/barograte,
 /area/rogue/indoors/risvonbase)
+"EQ" = (
+/obj/structure/barbedwire{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/turf/open/floor/rogue/grassred,
+/area/rogue/outdoors/risvon)
 "ES" = (
 /obj/structure/fluff/walldeco/ubk{
 	pixel_y = -32
@@ -6277,6 +6293,20 @@
 /obj/structure/table/wood/perserdunsmall/smallmetal,
 /turf/open/floor/rogue/warmetal,
 /area/rogue/under/cave/warmachine)
+"XY" = (
+/obj/structure/table/wood/poor,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/obj/item/rogueweapon/shovel/small/etool,
+/turf/open/floor/rogue/risvon,
+/area/rogue/indoors/risvonbase)
 "Ya" = (
 /obj/structure/fluff/railing/sandbag{
 	dir = 1;
@@ -6464,9 +6494,9 @@
 /area/rogue/under/cave/warmachine)
 "ZJ" = (
 /obj/effect/decal/cobbleedge{
-	dir = 2
+	icon_state = "cobbleedge-n"
 	},
-/turf/open/floor/rogue/dirt/road,
+/turf/open/floor/rogue/cobblerock,
 /area/rogue/outdoors/risvon)
 "ZM" = (
 /obj/effect/decal/cleanable/dirt/grime/grime2,
@@ -7719,7 +7749,7 @@ lA
 Tx
 fn
 fn
-dd
+Ba
 AX
 cn
 wu
@@ -7849,7 +7879,7 @@ gm
 Tx
 fn
 fn
-dd
+Ba
 Hj
 cn
 cn
@@ -7979,8 +8009,8 @@ lA
 Tx
 qd
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -8109,8 +8139,8 @@ lA
 Tx
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -8239,8 +8269,8 @@ xK
 Tx
 Id
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -8369,8 +8399,8 @@ xK
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -8499,8 +8529,8 @@ gm
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 ti
@@ -8629,8 +8659,8 @@ lA
 Tx
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -8759,8 +8789,8 @@ tW
 Tx
 qd
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -8889,8 +8919,8 @@ HB
 IW
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -9019,8 +9049,8 @@ uh
 Xv
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -9149,8 +9179,8 @@ lA
 Kl
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -9279,8 +9309,8 @@ lA
 Xh
 fn
 fn
-dd
-AX
+KA
+EQ
 Ba
 Ba
 Ba
@@ -9409,8 +9439,8 @@ lA
 Xh
 fn
 fn
-dd
-Hj
+KA
+zT
 Ba
 Ba
 Ba
@@ -9539,8 +9569,8 @@ pi
 Xh
 fn
 fn
-dd
-AX
+KA
+jc
 Ba
 Ba
 Ba
@@ -9669,8 +9699,8 @@ sP
 Bs
 qd
 fn
-dd
-Hj
+KA
+iQ
 YS
 Ba
 Ba
@@ -9798,12 +9828,12 @@ OM
 oj
 JO
 zv
-dd
-dd
-dd
-dd
-Ba
-Ba
+ok
+ok
+ok
+su
+KA
+KA
 Ba
 Ba
 Ba
@@ -9927,14 +9957,14 @@ OM
 OM
 OM
 OM
+ok
+ok
+ok
+ok
+ok
 ZJ
-dd
-dd
-dd
-dd
-dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -10057,15 +10087,15 @@ OM
 OM
 cO
 OM
-su
-dd
-dd
-dd
-dd
-dd
-Ba
-dd
-Ba
+zv
+ok
+KA
+KA
+ok
+ZJ
+KA
+KA
+KA
 Ba
 Ba
 Ba
@@ -10189,13 +10219,13 @@ sP
 Bs
 qd
 fn
-dd
-AX
+KA
+jc
 YS
 Ba
-Ba
-dd
-dd
+KA
+KA
+KA
 Ba
 Ba
 Ba
@@ -10319,14 +10349,14 @@ vO
 Xh
 fn
 fn
-dd
-Hj
+KA
+iQ
 Ba
 Ba
 Ba
-dd
-dd
-dd
+KA
+KA
+KA
 Ba
 Ba
 ti
@@ -10449,14 +10479,14 @@ lA
 Xh
 fn
 fn
-dd
-AX
+KA
+jc
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -10579,14 +10609,14 @@ lA
 Xh
 fn
 fn
-dd
+KA
 Hj
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -10709,15 +10739,15 @@ lA
 Xh
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -10839,15 +10869,15 @@ uh
 CS
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+ok
+KA
 Ba
 Ba
 Ba
@@ -10969,15 +10999,15 @@ HB
 IW
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 ti
 Ba
 Ba
 Ba
 dd
-dd
+KA
 Ba
 Ba
 Ba
@@ -11099,15 +11129,15 @@ XJ
 Tx
 qd
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 dd
 Ba
 Ba
@@ -11229,15 +11259,15 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-Ba
+KA
+KA
 dd
 Ba
 Ba
@@ -11359,16 +11389,16 @@ ah
 Tx
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
 Ba
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -11489,16 +11519,16 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
 ti
@@ -11619,8 +11649,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -11628,7 +11658,7 @@ Ba
 Ba
 dd
 dd
-dd
+KA
 Ba
 Ba
 Ba
@@ -11749,16 +11779,16 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -11879,16 +11909,16 @@ sP
 IW
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
 Ba
 ti
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -12009,16 +12039,16 @@ HB
 IW
 qd
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
 Ba
 Ba
 dd
-dd
-dd
+KA
+KA
 dd
 Ba
 Ba
@@ -12139,8 +12169,8 @@ Dm
 Tx
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -12148,7 +12178,7 @@ Ba
 Ba
 Ba
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -12269,8 +12299,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -12278,7 +12308,7 @@ Ba
 Ba
 Ba
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -12399,8 +12429,8 @@ ah
 Tx
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -12408,8 +12438,8 @@ Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 dd
 Ba
 Ba
@@ -12529,8 +12559,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -12539,7 +12569,7 @@ Ba
 Ba
 dd
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -12659,8 +12689,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -12669,8 +12699,8 @@ Ba
 Ba
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -12789,8 +12819,8 @@ ah
 Tx
 fn
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -12800,7 +12830,7 @@ Ba
 Ba
 dd
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -12919,8 +12949,8 @@ sP
 IW
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -12930,8 +12960,8 @@ Ba
 ti
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -13049,8 +13079,8 @@ HB
 tU
 qd
 fn
-dd
-AX
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -13060,8 +13090,8 @@ dd
 dd
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 Ba
@@ -13179,8 +13209,8 @@ vi
 vi
 fn
 fn
-dd
-Hj
+Ba
+zT
 Ba
 Ba
 Ba
@@ -13191,7 +13221,7 @@ vB
 Ba
 Ba
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -13308,9 +13338,9 @@ vi
 vi
 vi
 fn
-dd
-dd
-AX
+Ba
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -13321,8 +13351,8 @@ Ba
 dd
 Ba
 dd
-dd
-dd
+KA
+KA
 Ba
 Ba
 ti
@@ -13438,9 +13468,9 @@ vi
 vi
 vi
 nW
-dd
-cn
-AX
+Ba
+Ba
+EQ
 Ba
 Ba
 Ba
@@ -13452,7 +13482,7 @@ Ba
 Ba
 dd
 dd
-dd
+KA
 dd
 Ba
 Ba
@@ -13551,7 +13581,7 @@ xK
 at
 iw
 KM
-xK
+XY
 Tx
 XO
 Qw
@@ -13569,21 +13599,21 @@ wu
 wu
 wu
 wu
-cn
-Ba
-Ba
-Ba
-Ba
-dd
-Ba
 Ba
 Ba
 Ba
 Ba
 Ba
 dd
+Ba
+Ba
+Ba
+Ba
+Ba
+Ba
 dd
-dd
+KA
+KA
 dd
 Ba
 Ba
@@ -13713,7 +13743,7 @@ ti
 Ba
 Ba
 dd
-dd
+KA
 dd
 dd
 Ba
@@ -13843,8 +13873,8 @@ Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 dd
 Ba
 Ba
@@ -13974,8 +14004,8 @@ Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 Ba
 cn
@@ -14105,7 +14135,7 @@ Ba
 Ba
 Ba
 dd
-dd
+KA
 dd
 Ba
 cn
@@ -14235,7 +14265,7 @@ Ba
 Ba
 Ba
 Ba
-dd
+KA
 dd
 dd
 cn
@@ -14365,8 +14395,8 @@ Ba
 Ba
 Ba
 Ba
-dd
-dd
+KA
+KA
 Ba
 cn
 cn
@@ -14496,10 +14526,10 @@ Ba
 Ba
 Ba
 Ba
-dd
-Ba
-cn
-cn
+KA
+KA
+KA
+KA
 cn
 cn
 dd
@@ -14627,10 +14657,10 @@ Ba
 Ba
 Ba
 dd
-dd
-dd
-dd
-cn
+KA
+KA
+KA
+KA
 cn
 bQ
 ex
@@ -14758,11 +14788,11 @@ Ba
 Ba
 Ba
 Ba
-cn
-dd
-dd
-cn
-cn
+KA
+KA
+KA
+KA
+KA
 St
 Dq
 gv
@@ -14890,9 +14920,9 @@ Ba
 Ba
 cn
 cn
-dd
-dd
-cn
+KA
+KA
+KA
 ok
 HG
 bb
