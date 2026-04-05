@@ -32,7 +32,7 @@
 /obj/item/ammo_box/magazine/luger
     name = "KRL magazine"
     desc = "An extractable magazine. It looks like a standard pistol magazine, except a bit bigger."
-    multiple_sprites = AMMO_BOX_FULL_EMPTY
+    multiple_sprites = AMMO_BOX_PER_BULLET
     ammo_type = /obj/item/ammo_casing/a9mm
     caliber = "a9mm"
     max_ammo = 9
