@@ -35,6 +35,7 @@
 	beltl = /obj/item/gun/ballistic/pistol/luger
 	beltr = /obj/item/storage/belt/rogue/pouch/stim
 	gloves = /obj/item/clothing/gloves/roguetown/blacksteel/modern/plategloves/bulwark
+	neck = /obj/item/clothing/neck/roguetown/bevor
 	wrists = /obj/item/scomstone/kingsrow
 	head = /obj/item/clothing/head/roguetown/helmet/blacksteel/modern/armet/bulwark
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
