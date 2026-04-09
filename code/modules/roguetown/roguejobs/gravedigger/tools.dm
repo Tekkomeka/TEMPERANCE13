@@ -16,8 +16,6 @@
 	swingsound = list('sound/combat/wooshes/blunt/shovel_swing.ogg','sound/combat/wooshes/blunt/shovel_swing2.ogg')
 	drop_sound = 'sound/foley/dropsound/shovel_drop.ogg'
 	var/obj/item/natural/dirtclod/heldclod
-	var/ground = 0 
-	var/max_ground = 2 //how many dirtclods a shovel can hold at once
 	var/working = 0
 	var/folded = FALSE
 	smeltresult = /obj/item/ingot/iron
@@ -59,7 +57,7 @@
 	misscost = 0
 	no_attack = TRUE
 
-/obj/item/rogueweapon/shovel/attack(mob/living/M, mob/living/user)
+/obj/item/rogueweapon/shovel/attack(mob/living/M, mob/living/user, atom/A)
 	. = ..()
 	if(. && heldclod && get_turf(M))
 		heldclod.forceMove(get_turf(M))
@@ -90,7 +88,6 @@
 						T.ChangeTurf(/turf/open/floor/rogue/dirt/road, flags = CHANGETURF_INHERIT_AIR)
 					heldclod = new(src)
 					playsound(T,'sound/items/dig_shovel.ogg', 100, TRUE)
-					ground += max_ground
 					update_icon()
 			return
 		if(heldclod)
