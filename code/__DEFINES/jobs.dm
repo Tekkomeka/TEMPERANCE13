@@ -214,12 +214,13 @@
 #define GRANDKNIGHT (1<<1) // heaviest armor in the game - very tanky - melee only - consider adding a shield
 #define KNIGHTCOMMANDER (1<<2) //better armor + sawn down lever-action & a sword
 #define AUXILIARIST	(1<<3) //support role - same w/ servico
-#define ARMSMAN	(1<<4) //standard soldier w/ a rifle
-#define ROOK (1<<5) // terdun machine gunner
-#define AMMOSQUIRE (1<<6) // terdun ammo bearer
-#define CHIRURGEON (1<<7)
-#define PARTISAN (1<<8)
-#define ENVOY (1<<9)
+#define BLACKGUARD (1<<4) //trench raider - specialized in close combat
+#define ARMSMAN	(1<<5) //standard soldier w/ a rifle
+#define ROOK (1<<6) // terdun machine gunner
+#define AMMOSQUIRE (1<<7) // terdun ammo bearer
+#define CHIRURGEON (1<<8)
+#define PARTISAN (1<<9)
+#define ENVOY (1<<10)
 
 #define RISVON	(1<<13)
 
