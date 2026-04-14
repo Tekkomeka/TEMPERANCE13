@@ -123,8 +123,9 @@
 
 /obj/item/clothing/suit/roguetown/shirt/robe/warpriest/dropped(mob/living/user)
 	..()
-	REMOVE_TRAIT(user, TRAIT_BLOODIED_ROBE, TRAIT_GENERIC)
-	to_chat(user, span_notice("I lose that sense of vigor as I lay down my vestments..."))
+	if(HAS_TRAIT(user, TRAIT_BLOODIED_ROBE))
+		REMOVE_TRAIT(user, TRAIT_BLOODIED_ROBE, TRAIT_GENERIC)
+		to_chat(user, span_notice("I lose that sense of vigor as I lay down my vestments..."))
 
 /obj/item/clothing/suit/roguetown/shirt/robe/monk
 	name = "monk vestments"
