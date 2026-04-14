@@ -273,6 +273,7 @@
 #define JDO_GRANDKNIGHT 1.1
 #define JDO_KNIGHTCOMMANDER 1.2
 #define JDO_AUXILIARIST 1.3
+#define JDO_BLACKGUARD 1.32
 #define JDO_ARMSMAN 1.4
 #define JDO_ROOK 1.5
 #define JDO_AMMOSQUIRE 1.6
@@ -310,6 +311,7 @@
 	/datum/job/roguetown/grandmaster,\
 	/datum/job/roguetown/grandknight,\
 	/datum/job/roguetown/knightcommander,\
+	/datum/job/roguetown/blackguard,\
 	/datum/job/roguetown/auxiliar,\
 	/datum/job/roguetown/armsman,\
 	/datum/job/roguetown/chirurgeon,\
