@@ -47,6 +47,16 @@
 	damage = 70
 	armor_penetration = 40 //added armor pen similar to the .44 bullet
 
+/obj/projectile/bullet/a30
+	name = ".30 light bullet"
+	icon_state = "bullet_proj"
+	damage = 35
+
+/obj/projectile/bullet/a762lp
+	name = "LP 7.62mm bullet"
+	icon_state = "bullet_proj"
+	damage = 55
+
 // shotgun
 
 /obj/projectile/bullet/shotgun_slug
@@ -92,8 +102,8 @@
 
 /obj/projectile/bullet/shrapnel //default shrapnel; if we ever want specific behaviors for shrapnel we can put em here
 	name = "pellet"
-	damage = 30
-	armor_penetration = 40
+	damage = 70
+	armor_penetration = 20
 	hitscan = FALSE
 	ignore_source_check = TRUE
 	woundclass = BCLASS_CUT
