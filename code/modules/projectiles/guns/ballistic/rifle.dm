@@ -196,6 +196,21 @@
 	load_sound = 'sound/combat/ranged/leveractioninsert.ogg'
 	recoil = 0.15
 
+/obj/item/gun/ballistic/rifle/repeater/leverleg
+	name = "'Mare' Baye VII"
+	desc = "A genuine lever action, produced by a WAR MACHINE's outlet, cut down and let in a shelf for who knows how long Fires revolver rounds."
+	icon_state = "sawn-leverchester"
+	item_state = "sawn-leverchester"
+	w_class = WEIGHT_CLASS_SMALL
+	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/leverleg
+	slowdown = 0.05
+	spread = 0.5
+	slamfire = TRUE
+	pump_sound = 'sound/combat/ranged/leveractioncock.ogg'
+	fire_sound = REVOLVERSHOT
+	load_sound = 'sound/combat/ranged/leveractioninsert.ogg'
+	recoil = 0.15
+
 /obj/item/gun/ballistic/rifle/repeater/rattlesnake
 	name = "BRH 'Rattlesnake'"
 	desc = "A one-shot, breech-loaded rifle gifted by one of Dictate's few allies. Comes with a cloth, tucked in the RIGHT SIDE of the stock."

@@ -121,3 +121,10 @@
 	contains = list(
 					/obj/item/gun/ballistic/rifle/repeater/lebel,
 				)
+
+/datum/supply_pack/rogue/firearms/leverleg
+	name = "'Mare' Baye VII Sawn off Lever Action Rifle"
+	cost = 90
+	contains = list(
+					/obj/item/gun/ballistic/rifle/repeater/leverleg,
+				)

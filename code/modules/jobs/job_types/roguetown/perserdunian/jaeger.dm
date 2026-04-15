@@ -61,6 +61,8 @@
 		/obj/item/landmine,
 		/obj/item/landmine,
 		/obj/item/landmine,
+		/obj/item/landmine,
+		/obj/item/landmine,
 		/obj/item/frogmine,
 		/obj/item/frogmine,
 		/obj/item/frogmine,

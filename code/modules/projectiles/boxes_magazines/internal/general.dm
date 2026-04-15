@@ -32,6 +32,13 @@
 	max_ammo = 9
 	multiload = 0
 
+/obj/item/ammo_box/magazine/internal/boltaction/leverleg
+	name = "WTF."
+	desc = "YOU SHOULD NOT BE SEEING THIS!!!"
+	ammo_type = /obj/item/ammo_casing/a44
+	caliber = "a44"
+	max_ammo = 7
+	multiload = 0
 
 /obj/item/ammo_box/magazine/internal/boltaction/rattlesnake
 	name = "snake internal mag."
