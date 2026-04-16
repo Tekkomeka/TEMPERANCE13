@@ -297,8 +297,8 @@
 	name = "KR 'Leonard'"
 	desc = "One of the only light machine guns produced the by WAR machine. This one sports a gun shield at the front. There is a tally mark for each man who's held it before you. It's at XII."
 	icon = 'icons/roguetown/weapons/64guns.dmi'
-	icon_state = "lewis"
-	item_state = "lewis"
+	icon_state = "lewisgun"
+	item_state = "lewisgun"
 	can_parry = TRUE
 	armor = ARMOR_SHIELD
 	possible_item_intents = list(, SHIELD_BLOCK, SHIELD_SMASH)
