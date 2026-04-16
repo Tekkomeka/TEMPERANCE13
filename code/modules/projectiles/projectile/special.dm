@@ -161,7 +161,7 @@
 	extinguishable = TRUE
 	weather_resistant = TRUE
 	anchored = TRUE
-	sellprice = 4
+	sellprice = 2
 
 /obj/item/flashlight/flare/flaregun/Initialize()
 	. = ..()
@@ -173,3 +173,30 @@
 	name = "burned out flare"
 	desc = "A burned out flare. Sometimes, you feel like you can sympathize with it." //this is not a cry for help btw
 	anchored = FALSE
+
+/obj/effect/flare_illumination
+	name = "illumination flare"
+	desc = "You shouldn't be seeing this. Tell an admin."
+	anchored = TRUE
+
+/obj/effect/flare_illumination/proc/illuminate(distance, strength, time, obj/item/spent) //variables let us decide how big the light should be, how bright it should be, how long it should last, and what it should turn into when its done
+	for(var/turf/lightup_turf in RANGE_TURFS(distance, src))
+		if(!lightup_turf.weatherproof)
+			/obj/effect/flare_illumination/proc/tile_illuminate(strength)
+	for(var/mob/living/spotter in RANGE_TURFS(distance*1.5, src))
+	addtimer(CALLBACK(src, PROC_REF(cease_illumination)), time)
+
+/obj/effect/flare_illuminator
+	name = "illumination"
+	desc = "You shouldn't be seeing this. Tell an admin."
+	anchored = TRUE
+
+/obj/effect/flare_illumination/proc/tile_illuminate(strength)
+	var/obj/effect/flare_illuminator
+	new lightspot = flare_illuminator
+	lightspot.set_light(1, 1, strength, color = COLOR_WHITE)
+
+/obj/effect/flare_illumination/proc/cease_illumination()
+	for(var/obj/effect/flare_illuminator/victim in RANGE_TURFS(distance, src))
+		qdel(victim)
+	qdel(src)

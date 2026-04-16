@@ -19,7 +19,7 @@
 		chamber_round()
 
 /obj/item/gun/ballistic/revolver/flaregun //while under the revolver subtype this IS a launcher and needs a lot of niche code to work
-	name = "IFS flare gun"
+	name = "\improper IFS flare gun"
 	desc = "A flare gun. Despite being found in the LOVE MACHINE, these have found themselves used mainly for war instead of rescue. Designed to fire two kinds of flares- high illumination and low intensity."
 	icon = 'icons/roguetown/weapons/32guns.dmi'
 	icon_state = "flaregun"
@@ -45,11 +45,19 @@
 	chargedrain = 0
 	no_early_release = FALSE
 
+/obj/item/gun/ballistic/revolver/flaregun/process_fire(atom/target, mob/living/user, message = TRUE, params = null, zone_override = "", bonus_spread = 0)
+	var/obj/item/ammo_casing/shell = src.magazine.stored_ammo[1]
+	if(shell == /obj/item/ammo_casing/flareh)
+		var/turf/firerlocation = user.loc
+		if(firerlocation.weatherproof)
+			to_chat(src, span_warning("I can't fire [src] until I'm outside!"))
+			return
+	else
+		..()
+
 /obj/item/gun/ballistic/revolver/flaregun/process_chamber() //To update to the empty icons
 	..()
-	var/list/shells = src.magazine.stored_ammo 
-	message_admins("Attempting to get the bullets [shells]")//getting the bullets
+	var/list/shells = src.magazine.stored_ammo //getting the bullets
 	for(var/obj/item/ammo_casing/shell in shells) //should be easy to slap onto other guns. i could probably put this elsewhere but frankly the fact we don't have a way to convert existing shells to spent ones is atrocious enough
-		message_admins("Got bullets [shells], acting on bullet [shell]")
 		shell.icon_state += "-spent" //FYI, if you make this a more general function make sure repacked shells go back to their initial state
 
