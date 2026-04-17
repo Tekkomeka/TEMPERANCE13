@@ -41,25 +41,27 @@
 	allowed_patrons = list(/datum/patron/godless/perserdun)
 
 /datum/outfit/job/roguetown/warpriest/pre_equip(mob/living/carbon/human/H)
-	shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/priest
-	shoes = /obj/item/clothing/shoes/roguetown/shortboots
+	shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/priest/warpriest
+	shoes = /obj/item/clothing/shoes/roguetown/boots
 	beltl = /obj/item/flashlight/flare/torch/lantern
 	armor = /obj/item/clothing/suit/roguetown/shirt/robe/warpriest
 	cloak = /obj/item/clothing/cloak/perserduntabard
-	pants = /obj/item/clothing/under/roguetown/tights/black
+	pants = /obj/item/clothing/under/roguetown/trou/artipants
 	head = /obj/item/clothing/head/roguetown/priestmask
 	mask = /obj/item/clothing/mask/rogue/gasmask/perserdunmask
-	neck = /obj/item/clothing/neck/roguetown/psicross/astrata
+	// neck = /obj/item/clothing/neck/roguetown/psicross/astrata	i'm hoping we get a religious symbol for rab at some point
 	belt = /obj/item/storage/belt/rogue/leather/black/soldier
 	beltl = /obj/item/flashlight/flare/torch/lantern
-	beltr = /obj/item/grenade/gas/poison
+	beltr = /obj/item/gun/ballistic/revolver/mercy
 	wrists = /obj/item/scomstone/garrison
+	gloves = /obj/item/clothing/wrists/roguetown/wrappings
 	id = /obj/item/roguekey/perserdun
+	backl = /obj/item/rogueweapon/woodstaff/quarterstaff
 	backr = /obj/item/storage/backpack/rogue/backpack/perserdun
 	backpack_contents = list(
-		/obj/item/storage/belt/rogue/pouch/coins/rich,
-		/obj/item/grenade/gas/poison,
-		/obj/item/bomb/dynamite,
+		/obj/item/storage/belt/rogue/pouch/coins/mid,
+		/obj/item/ammo_box/handfuls/mercy,
+		/obj/item/ammo_box/handfuls/mercy,
 	)
 	H.adjust_skillrank(/datum/skill/craft/alchemy, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/magic/blood, 4, TRUE)
