@@ -54,7 +54,7 @@
 		/obj/item/ammo_box/handfuls/shotgun/buckshot = 6,
 		/obj/item/storage/belt/rogue/pouch/coins/mid,
 		/obj/item/grenade/gas/smoke,
-		/obj/item/bomb/dynamite = 2,
+		/obj/item/bomb/dynamite,
 	)
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)

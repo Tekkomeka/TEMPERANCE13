@@ -108,13 +108,6 @@
 					/obj/item/gun/ballistic/rifle/repeater/risvocarb,
 				)
 
-/datum/supply_pack/rogue/firearms/auto5
-	name = "AO5 'Gloria' Semi-Automatic Shotgun"
-	cost = 350
-	contains = list(
-					/obj/item/gun/ballistic/rifle/repeater/auto5,
-				)
-
 /datum/supply_pack/rogue/firearms/lebel
 	name = "SOG 'Regal' Bolt Action Rifle"
 	cost = 80
