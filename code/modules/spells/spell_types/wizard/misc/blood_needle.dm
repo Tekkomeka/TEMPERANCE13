@@ -49,8 +49,8 @@
 	name = "Blood Needle"
 	desc = "A simple spell used to harden blood into an instrument for sewing."
 	clothes_req = FALSE
-	drawmessage = "I prepare to perform a minor arcyne incantation."
-	dropmessage = "I release my minor arcyne focus."
+	drawmessage = "I pool blood from under my nails and shape it into a needle."
+	dropmessage = "The needle liquidizes into blood once more, falling to the ground."
 	school = "transmutation"
 	overlay_state = "rune4"
 	chargedrain = 0
