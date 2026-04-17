@@ -52,7 +52,7 @@
 //hmg 
 
 /obj/item/ammo_box/magazine/lewis
-	name = "Lewis gun ammo pan"
+	name = "Leonard ammo pan"
 	desc = "A pan magazine for the Lewis gun."
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 	caliber = "a30"
@@ -64,7 +64,7 @@
 	grid_height = 64
 
 /obj/item/ammo_box/magazine/dp47
-	name = "DP47 ammo pan"
+	name = "Redeemer ammo pan"
 	desc = "A pan magazine for the DP47."
 	multiple_sprites = AMMO_BOX_FULL_EMPTY
 	ammo_type = /obj/item/ammo_casing/a762lp
