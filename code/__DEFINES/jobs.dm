@@ -223,16 +223,6 @@
 #define ENVOY (1<<9)
 #define RADIOTROOPER (1<<10)
 =======
-#define WARPRIEST (1<<2) // rab worshipper support role, uses blood magic, has a few offensive spells with a few support ones too
-#define KNIGHTCOMMANDER (1<<3) //better armor + sawn down lever-action & a sword
-#define AUXILIARIST	(1<<4) //support role - same w/ servico
-#define ARMSMAN	(1<<5) //standard soldier w/ a rifle
-#define ROOK (1<<6) // terdun machine gunner
-#define AMMOSQUIRE (1<<7) // terdun ammo bearer
-#define CHIRURGEON (1<<8)
-#define PARTISAN (1<<9)
-#define ENVOY (1<<10)
-#define RADIOTROOPER (1<<11)
 >>>>>>> main
 
 #define RISVON	(1<<13)
