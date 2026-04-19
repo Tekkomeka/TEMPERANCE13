@@ -38,7 +38,7 @@
 	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/lord
 	shoes = /obj/item/clothing/shoes/roguetown/boots
 	beltl = /obj/item/flashlight/flare/torch/lantern
-	armor = /obj/item/clothing/suit/roguetown/armor/plate/half/iron
+	armor = /obj/item/clothing/suit/roguetown/armor/plate/half/fluted
 	cloak = /obj/item/clothing/cloak/perserduntabard
 	pants = /obj/item/clothing/under/roguetown/trou/artipants
 	head = /obj/item/clothing/head/roguetown/helmet/heavy/knight/iron
@@ -62,8 +62,8 @@
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/crafting, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/swords, 2, TRUE)
-	H.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/swords, 3, TRUE)
+	H.adjust_skillrank(/datum/skill/combat/knives, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/swimming, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/athletics, 3, TRUE)
