@@ -1816,3 +1816,26 @@
 	boobed = TRUE
 	slot_flags = ITEM_SLOT_SHIRT|ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDECROTCH|HIDEBOOB
+
+/obj/item/clothing/cloak/blackguard
+	name = "blackguard trenchcoat"
+	desc = "A tattered black trenchcoat, worn by the Blackguard of the Perserdunian forces. It is said that the Blackguard are the only ones who can get away with wearing such a garment in polite company."
+	color = null
+	icon_state = "blackguard"
+	item_state = "blackguard"
+	body_parts_covered = CHEST|GROIN|VITALS
+	boobed = TRUE
+	slot_flags = ITEM_SLOT_SHIRT|ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
+	flags_inv = HIDECROTCH|HIDEBOOB
+
+/obj/item/clothing/cloak/blackguard/ComponentInitialize()
+	. = ..()
+	AddComponent(/datum/component/storage/concrete/roguetown/cloak)
+
+/obj/item/clothing/cloak/blackguard/dropped(mob/living/carbon/human/user)
+	..()
+	var/datum/component/storage/STR = GetComponent(/datum/component/storage)
+	if(STR)
+		var/list/things = STR.contents()
+		for(var/obj/item/I in things)
+			STR.remove_from_storage(I, get_turf(src))

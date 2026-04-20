@@ -187,6 +187,7 @@ GLOBAL_LIST_INIT(perserdun_positions, list(
 	"Knight Commander",
 	"Voltigeur",
 	"Armsman",
+	"Blackguard",
 	"Rook",
 	"Ammo Squire",
 	"Auxiliarist",
