@@ -698,8 +698,8 @@
 	return
 
 /obj/item/clothing/neck/roguetown/boa
-	name = "furry boa"
-	desc = "A warm boa made with thick furs."
+	name = "Boa"
+	desc = "A long boa made from surprisingly soft feathers."
 	icon_state = "boa"
 	item_state = "boa"
 	sewrepair = TRUE
