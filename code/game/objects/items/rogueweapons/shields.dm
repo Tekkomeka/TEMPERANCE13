@@ -204,8 +204,8 @@
 	desc = "A heavy shield, made by machine, requires two hands to wield effectively."
 	icon_state = "kitesh"
 	force = 10
-	force_wielded = 20
-	throwforce = 20 // this is so funny to think about
+	force_wielded = 30
+	throwforce = 60 // this is so funny to think about
 	throw_speed = 1
 	throw_range = 5
 	possible_item_intents = list(SHIELD_BASH_METAL, SHIELD_SMASH_METAL)
