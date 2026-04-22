@@ -45,42 +45,6 @@ GLOBAL_LIST_EMPTY(cmode_tracks_by_name)
 	shortname = "Default"
 	musicpath = list()
 
-// Old RTcode cmode tracks, cherrypicked out of the otherwise purged list bc i thought they were either fitting or cool enough
-
-/datum/combat_music/desertrider
-	name = "Desert Rider Mercenary"
-	desc = ""
-	shortname = "Desert Rider"
-	credits = "Two Fingers - You Ain't Down"
-	musicpath = list('sound/music/combat_desertrider.ogg')
-
-/datum/combat_music/forlorn
-	name = "Forlorn Hope Mercenary"
-	desc = ""
-	shortname = "Forlorn Hope"
-	musicpath = list('sound/music/combat_blackstar.ogg')
-
-/datum/combat_music/iconoclast
-	name = "Iconoclast"
-	desc = ""
-	shortname = "Iconoclast"
-	credits = "Valley of Judgement- Lateralis"
-	musicpath = list('sound/music/Iconoclast.ogg')
-
-/datum/combat_music/inquisitor
-	name = "Inquisitor (Monster Hunter/Spellbreaker)"
-	desc = ""
-	shortname = "Inquisitor"
-	credits = "Hellsing OST RAID Track 15: Survival on the Street of Insincerity"
-	musicpath = list('sound/music/inquisitorcombat.ogg')
-
-/datum/combat_music/maniac
-	name = "Maniac"
-	desc = ""
-	shortname = "Maniac"
-	credits = "Thomas Bangalter - Stress"
-	musicpath = list('sound/music/combat_maniac2.ogg')
-
 // Temperance13 tracks, picked because they're general-use enough to be deemed pickable
 
 /datum/combat_music/armsman
@@ -100,12 +64,6 @@ GLOBAL_LIST_EMPTY(cmode_tracks_by_name)
 	desc = ""
 	shortname = "Backliner"
 	musicpath = list('sound/music/combat_backliner.ogg')
-
-/datum/combat_music/debt
-	name = "Debt Collector"
-	desc = ""
-	shortname = "Debt Collector"
-	musicpath = list('sound/music/cmode/adventurer/combat_debt.ogg')
 
 /datum/combat_music/foreigner
 	name = "Foreigner"
@@ -142,12 +100,6 @@ GLOBAL_LIST_EMPTY(cmode_tracks_by_name)
 	desc = ""
 	shortname = "Poacher"
 	musicpath = list('sound/music/combat_poacher.ogg')
-
-/datum/combat_music/private
-	name = "Gunslinger (Private Investigator)"
-	desc = ""
-	shortname = "Private Investigator"
-	musicpath = list('sound/music/cmode/adventurer/combat_private.ogg')
 
 /datum/combat_music/soldato
 	name = "Soldato"
