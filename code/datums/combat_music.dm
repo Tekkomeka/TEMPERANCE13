@@ -83,6 +83,12 @@ GLOBAL_LIST_EMPTY(cmode_tracks_by_name)
 	shortname = "OldBoy/Perp/Desperado"
 	musicpath = list('sound/music/cmode/adventurer/combat_gunman.ogg')
 
+/datum/combat_music/linebreaker
+	name = "LineBreaker"
+	desc = ""
+	shortname = "LineBreaker"
+	musicpath = list('sound/music/combat_linebreaker.ogg')
+
 /datum/combat_music/machinegunner
 	name = "Rook/Ammo Squire"
 	desc = ""
@@ -118,3 +124,9 @@ GLOBAL_LIST_EMPTY(cmode_tracks_by_name)
 	desc = ""
 	shortname = "Voltigeur"
 	musicpath = list('sound/music/combat_voltigeur.ogg')
+
+/datum/combat_music/zizlime
+	name = "CHESHYRE_AAHQ (Zizlime Remix)"
+	desc = ""
+	shortname = "CHESHYRE"
+	musicpath = list('sound/music/combat_zizlime.ogg')
