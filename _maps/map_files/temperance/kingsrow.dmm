@@ -1481,6 +1481,9 @@
 /area/rogue/indoors/shelter/town)
 "il" = (
 /obj/structure/closet/crate/chest/neu_iron,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
+/obj/item/rope/chain,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
 "io" = (
@@ -3276,6 +3279,7 @@
 /area/rogue/outdoors/beach/forest/south)
 "uW" = (
 /obj/structure/closet/crate/roguecloset/metal,
+/obj/item/storage/belt/rogue/pouch/coins/rich,
 /obj/item/storage/belt/rogue/pouch/coins/rich,
 /obj/item/storage/belt/rogue/pouch/coins/rich,
 /turf/open/floor/carpet/royalblack,
