@@ -42,7 +42,6 @@ SUBSYSTEM_DEF(gamemode)
 	var/selected_storyteller = /datum/storyteller/standard
 	/// Storyteller that won the roundstart vote/pick for this round. Remains fixed after the round begins.
 	var/roundstart_storyteller
-	var/selected_storyteller = /datum/storyteller/standard
 	/// List of all the storytellers. Populated at init. Associative from type
 	var/list/storytellers = list()
 	/// Cached storyteller type that won the previous round's storyteller vote.
