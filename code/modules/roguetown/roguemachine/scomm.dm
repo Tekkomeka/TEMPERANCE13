@@ -1,5 +1,4 @@
 #define GARRISON_SCOM_COLOR "#FF4242"
-#define LEADER_SCOM_COLOR "#680c0c"
 #define RADIO_SOUNDS
 #define SCOMNET_EMPIRE "empire"
 #define SCOMNET_ZIGS "zigs"
@@ -825,7 +824,7 @@
 		input_text = "<small>[input_text]</small>"
 	for(var/obj/item/scomstone/S in SSroguemachine.scomm_machines)
 		if(S.faction_net == faction_net)
-			input_text = "<big><span style='color: [LEADER_SCOM_COLOR]'>[input_text]</span></big>"
+			input_text = "<big><span style='color: [GARRISON_SCOM_COLOR]'>[input_text]</span></big>"
 			S.repeat_message(input_text, src, usedcolor)
 
 /obj/item/scomstone/perlead
@@ -851,5 +850,5 @@
 		input_text = "<small>[input_text]</small>"
 	for(var/obj/item/scomstone/S in SSroguemachine.scomm_machines)
 		if(S.faction_net == faction_net)
-			input_text = "<big><span style='color: [LEADER_SCOM_COLOR]'>[input_text]</span></big>"
+			input_text = "<big><span style='color: [GARRISON_SCOM_COLOR]'>[input_text]</span></big>"
 			S.repeat_message(input_text, src, usedcolor)
