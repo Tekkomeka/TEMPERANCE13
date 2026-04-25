@@ -809,10 +809,10 @@
 /obj/item/scomstone/rislead/attack_right(mob/living/carbon/human/user)
 	user.changeNext_move(CLICK_CD_INTENTCAP)
 	visible_message(span_notice ("[user] presses their ring against their mouth."))
-	input_text = input(user, "Enter your message:", "Message")
+	var/input_text = input(user, "Enter your message:", "Message")
 	if(!input_text)
 		return
-	usedcolor = user.voice_color
+	var/usedcolor = user.voice_color
 	if(user.voicecolor_override)
 		usedcolor = user.voicecolor_override
 	user.whisper(input_text)
@@ -835,10 +835,10 @@
 /obj/item/scomstone/perlead/attack_right(mob/living/carbon/human/user)
 	user.changeNext_move(CLICK_CD_INTENTCAP)
 	visible_message(span_notice ("[user] presses their ring against their mouth."))
-	input_text = input(user, "Enter your message:", "Message")
+	var/input_text = input(user, "Enter your message:", "Message")
 	if(!input_text)
 		return
-	usedcolor = user.voice_color
+	var/usedcolor = user.voice_color
 	if(user.voicecolor_override)
 		usedcolor = user.voicecolor_override
 	user.whisper(input_text)
