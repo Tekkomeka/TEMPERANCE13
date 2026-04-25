@@ -3,6 +3,7 @@
 	desc = "The Empire loves weapons like these. Shreds through people, and kicks like a bitch. Chambered in .50."
 	icon_state = "heavysniper"
 	item_state = "heavysniper"
+	icon = 'icons/roguetown/weapons/64guns.dmi'
 	mag_type = /obj/item/ammo_box/magazine/internal/boltaction/patience
 	slowdown = 0.5
 	spread = 0.2
@@ -19,6 +20,7 @@
 	desc = "Paint some /real/ ugly holes into your enemies. Comes with a reinforced buttstock, for smashing. Chambered in 12 gauge."
 	icon_state = "trenchgun"
 	item_state = "trenchgun"
+	icon = 'icons/roguetown/weapons/64guns.dmi'
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/eternal
 	slowdown = 0.15
 	spread = 0.5
