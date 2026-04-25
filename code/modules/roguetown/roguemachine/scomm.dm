@@ -779,3 +779,47 @@
 	desc = "A wrist-mounted communication device. Used by the Royalists."
 	faction_net = SCOMNET_KINGS
 	drop_sound = 'sound/foley/coinphy (1).ogg'
+
+/obj/item/scomstone/rislead
+	name = "communication piece"
+	icon_state = "scomstone1"
+	desc = "A wrist-mounted communication device. Used by the Zigs."
+	gripped_intents = null
+	dropshrink = 0.75
+	possible_item_intents = list(INTENT_GENERIC)
+	force = 10
+	throwforce = 10
+	slot_flags = ITEM_SLOT_WRISTS
+	obj_flags = null
+	icon = 'icons/roguetown/items/misc.dmi'
+	w_class = WEIGHT_CLASS_SMALL
+	experimental_inhand = FALSE
+	muteinmouth = TRUE
+	var/listening = TRUE
+	var/speaking = TRUE
+	var/messagereceivedsound = 'sound/misc/ris_radio.ogg'
+	var/hearrange = 0 // change to 0 if you want your special scomstone to be only hearable by wearer
+	var/faction_net = SCOMNET_ZIGS
+	drop_sound = 'sound/foley/coinphy (1).ogg'
+	sellprice = 100
+	grid_width = 32
+	grid_height = 32
+
+/obj/item/scomstone/rislead/attack_right(mob/living/carbon/human/user)
+	user.changeNext_move(CLICK_CD_INTENTCAP)
+	visible_message(span_notice ("[user] presses their ring against their mouth."))
+	var/input_text = input(user, "Enter your message:", "Message")
+	if(!input_text)
+		return
+	var/usedcolor = user.voice_color
+	if(user.voicecolor_override)
+		usedcolor = user.voicecolor_override
+	user.whisper(input_text)
+	if(length(input_text) > 100) //When these people talk too much, put that shit in slow motion, yeah
+		input_text = "<small>[input_text]</small>"
+	for(var/obj/item/scomstone/S in SSroguemachine.scomm_machines)
+		if(S.faction_net == faction_net)
+			input_text = "<big><span style='color: [GARRISON_SCOM_COLOR]'>[input_text]</span></big>" //Prettying up for Garrison line
+			S.repeat_message(input_text, src, usedcolor)
+
+/obj/item/scomstone/perlead
