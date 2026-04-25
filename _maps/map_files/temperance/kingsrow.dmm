@@ -662,7 +662,7 @@
 	redstone_id = "merchie"
 	},
 /turf/open/floor/rogue/cobblerock,
-/area/rogue/outdoors/beach/forest/south)
+/area/rogue/indoors/shelter/town)
 "dx" = (
 /obj/structure/chair/bench/comfychair{
 	dir = 4
@@ -995,10 +995,9 @@
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
 "fH" = (
-/turf/closed/wall/mineral/rogue/kingsrow/end{
-	dir = 8
-	},
-/area/rogue/outdoors/beach/forest/south)
+/obj/structure/barbedwire,
+/turf/open/floor/rogue/dirt,
+/area/rogue/indoors/shelter/town)
 "fI" = (
 /obj/structure/fluff/railing/corner/north_east,
 /turf/open/floor/rogue/dirt/road,
@@ -1030,8 +1029,12 @@
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "fT" = (
-/turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/outdoors/town)
+/obj/structure/barbedwire{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue/indoors/shelter/town)
 "fV" = (
 /obj/structure/bed/rogue/inn/hay{
 	dir = 2
@@ -1392,7 +1395,7 @@
 	},
 /obj/structure/barbedwire,
 /turf/open/floor/rogue/dirt,
-/area/rogue/outdoors/beach/forest/south)
+/area/rogue/indoors/shelter/town)
 "hz" = (
 /obj/effect/decal/remains/fox{
 	pixel_x = -13;
@@ -1902,10 +1905,11 @@
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue/indoors/shelter/town)
 "lE" = (
-/turf/closed/wall/mineral/rogue/kingsrow/end{
+/obj/machinery/light/rogue/firebowl/standing,
+/turf/open/floor/rogue/blocks{
 	dir = 4
 	},
-/area/rogue/outdoors/beach/forest/south)
+/area/rogue/indoors/shelter/town)
 "lG" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/item/seeds/wheat,
@@ -2795,6 +2799,9 @@
 	dir = 2
 	},
 /area/rogue/indoors/shelter/town)
+"ru" = (
+/turf/open/floor/rogue/cobblerock,
+/area/rogue/indoors/shelter/town)
 "rv" = (
 /obj/machinery/light/rogue/forge,
 /turf/open/floor/rogue/brown,
@@ -2940,7 +2947,7 @@
 	redstone_id = "merchie"
 	},
 /turf/open/floor/rogue/ruinedwood/spiral,
-/area/rogue/outdoors/town)
+/area/rogue/indoors/shelter/town)
 "sy" = (
 /obj/structure/mineral_door/wood/fancy,
 /turf/open/floor/rogue/brown,
@@ -4082,6 +4089,16 @@
 /obj/item/clothing/neck/roguetown/coif,
 /turf/open/floor/rogue/brown,
 /area/rogue/indoors/shelter/town)
+"zP" = (
+/obj/structure/barbedwire{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/obj/structure/fluff/walldeco/kingsrow{
+	pixel_y = -32
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue/indoors/shelter/town)
 "zQ" = (
 /obj/structure/table/wood/perserdunsmall,
 /obj/item/rogueweapon/huntingknife/chefknife{
@@ -4772,7 +4789,7 @@
 	lockid = "merchant"
 	},
 /turf/open/floor/rogue/brown,
-/area/rogue/outdoors/town)
+/area/rogue/indoors/shelter/town)
 "Es" = (
 /obj/effect/spawner/lootdrop/ammo,
 /turf/open/floor/rogue/dirt/road,
@@ -5373,7 +5390,7 @@
 /turf/open/floor/rogue/blocks{
 	dir = 8
 	},
-/area/rogue/outdoors/town)
+/area/rogue/indoors/shelter/town)
 "If" = (
 /obj/effect/spawner/lootdrop/medium_armor_spawner,
 /turf/open/floor/rogue/dirt,
@@ -5618,8 +5635,15 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/outdoors)
 "Kf" = (
-/turf/closed/wall/mineral/rogue/kingsrow/horizontal,
-/area/rogue/outdoors/beach/forest/south)
+/obj/structure/fluff/walldeco/kingsrow{
+	pixel_y = -32
+	},
+/obj/structure/barbedwire{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/turf/open/floor/rogue/dirt,
+/area/rogue/indoors/shelter/town)
 "Kh" = (
 /obj/structure/fluff/railing/corner,
 /turf/open/floor/rogue/ruinedwood/spiral,
@@ -6217,7 +6241,7 @@
 	redstone_id = "merchie"
 	},
 /turf/open/floor/rogue/cobblerock,
-/area/rogue/outdoors/beach/forest/south)
+/area/rogue/indoors/shelter/town)
 "Nu" = (
 /obj/item/roguegem/diamond,
 /turf/open/floor/rogue/dirt,
@@ -6292,7 +6316,7 @@
 	pixel_x = 32
 	},
 /turf/open/floor/rogue/brown,
-/area/rogue/outdoors/town)
+/area/rogue/indoors/shelter/town)
 "NR" = (
 /obj/structure/fluff/wallclock,
 /turf/open/floor/rogue/ruinedwood/spiral,
@@ -6959,7 +6983,7 @@
 	redstone_id = "merchie"
 	},
 /turf/open/floor/rogue/cobblerock,
-/area/rogue/outdoors/beach/forest/south)
+/area/rogue/indoors/shelter/town)
 "Ru" = (
 /obj/structure/fluff/walldeco/leibware{
 	pixel_y = 32
@@ -68544,7 +68568,7 @@ tn
 xP
 mW
 iG
-EB
+fT
 uj
 Kj
 go
@@ -68771,7 +68795,7 @@ tn
 tn
 tn
 tn
-mW
+fH
 uj
 Pi
 Vp
@@ -68998,7 +69022,7 @@ tn
 tn
 tn
 tn
-EB
+fT
 uj
 II
 bb
@@ -69225,7 +69249,7 @@ xP
 tn
 tn
 tn
-mW
+fH
 wA
 Ub
 uj
@@ -69452,7 +69476,7 @@ tn
 tn
 tn
 Cd
-Cd
+ru
 wz
 fF
 ar
@@ -69679,7 +69703,7 @@ xP
 tn
 Cd
 Cd
-Cd
+ru
 fN
 ar
 fN
@@ -69906,7 +69930,7 @@ tn
 Cd
 Cd
 Cd
-Cd
+ru
 ar
 ar
 La
@@ -70133,7 +70157,7 @@ Cd
 Cd
 Cd
 Cd
-EB
+fT
 Fe
 Ub
 uj
@@ -70360,7 +70384,7 @@ Cd
 Cd
 Cd
 tn
-mW
+fH
 wA
 Yi
 bn
@@ -70587,7 +70611,7 @@ Cd
 Cd
 tn
 tn
-EB
+fT
 uj
 Pi
 Vp
@@ -70814,7 +70838,7 @@ Cd
 tn
 tn
 tn
-mW
+fH
 uj
 Pi
 Vp
@@ -71041,7 +71065,7 @@ Cd
 fk
 tn
 tn
-EB
+fT
 uj
 Pi
 Vp
@@ -71268,7 +71292,7 @@ Cd
 Cd
 tn
 tn
-mW
+fH
 Fe
 yi
 hh
@@ -71495,7 +71519,7 @@ Cd
 Cd
 tn
 tn
-bB
+Kf
 uf
 iq
 sD
@@ -71722,7 +71746,7 @@ Cd
 Cd
 tn
 tn
-EB
+fT
 uf
 vY
 tN
@@ -71949,7 +71973,7 @@ Cd
 Cd
 Cd
 tn
-mW
+fH
 cq
 Gy
 sA
@@ -71958,7 +71982,7 @@ sA
 sA
 sA
 sA
-Mo
+cq
 no
 ii
 ii
@@ -72176,7 +72200,7 @@ Cd
 Cd
 Cd
 tn
-EB
+fT
 uf
 pP
 dy
@@ -72185,7 +72209,7 @@ lQ
 rK
 Vp
 Vp
-Xs
+uf
 Hb
 ii
 ii
@@ -72412,7 +72436,7 @@ uf
 zM
 Sm
 Uf
-Xs
+uf
 Hb
 ii
 ii
@@ -72630,7 +72654,7 @@ tn
 Cd
 Cd
 Mg
-fH
+Fe
 cq
 Xj
 aT
@@ -72639,7 +72663,7 @@ uf
 zl
 zl
 zl
-Mo
+cq
 uL
 Ir
 ii
@@ -72857,7 +72881,7 @@ xP
 xP
 Zw
 Mg
-Kf
+uf
 sU
 oX
 aT
@@ -73093,7 +73117,7 @@ yu
 Vp
 Vp
 Vp
-ii
+fF
 ii
 ii
 ii
@@ -73320,7 +73344,7 @@ mr
 Wu
 Vp
 Vp
-ii
+fF
 ii
 Ir
 ii
@@ -73547,7 +73571,7 @@ cl
 Vp
 ks
 Vp
-ii
+fF
 ii
 Ir
 ii
@@ -73765,7 +73789,7 @@ tn
 xP
 uF
 Mg
-Kf
+uf
 sU
 aT
 mG
@@ -73774,7 +73798,7 @@ Vw
 Vp
 Vp
 Vp
-cs
+lE
 Ir
 Ov
 ii
@@ -73992,7 +74016,7 @@ tn
 xP
 tn
 au
-lE
+wA
 cq
 Gf
 pQ
@@ -74001,7 +74025,7 @@ uf
 zl
 gl
 zl
-Mo
+cq
 QH
 ii
 YH
@@ -74219,7 +74243,7 @@ tn
 tn
 tn
 EB
-Dp
+zP
 uf
 aT
 zC
@@ -74228,7 +74252,7 @@ uf
 zM
 Sm
 Uf
-Xs
+uf
 Ov
 ii
 Mo
@@ -74446,16 +74470,16 @@ tn
 tn
 tn
 xP
-jX
-Xs
 fT
-fT
-fT
+uf
+aT
+aT
+aT
 El
 NP
-xI
-xI
-Xs
+Vp
+Vp
+uf
 Ir
 Ir
 Ir
@@ -74673,16 +74697,16 @@ xP
 cT
 tn
 xP
-jX
-Mo
-PD
+fT
+cq
+sA
 sw
-PD
-PD
-PD
-PD
-PD
-Mo
+sA
+sA
+sA
+sA
+sA
+cq
 QH
 Ov
 fo
