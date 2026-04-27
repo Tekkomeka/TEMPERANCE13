@@ -12,7 +12,7 @@
 	var/penis_size = DEFAULT_PENIS_SIZE
 	var/functional = TRUE
 
-/obj/item/organ/penis/Initialize()
+/obj/item/organ/penis/Initialize(mapload)
 	. = ..()
 
 /obj/item/organ/penis/proc/update_erect_state()
@@ -95,14 +95,16 @@
 	var/impregnation_probability = IMPREG_PROB_DEFAULT
 
 /obj/item/organ/vagina/proc/be_impregnated(mob/living/carbon/human/father)
-	if(pregnant)
-		return
 	if(!owner)
 		return
 	if(owner.stat == DEAD)
 		return
+	if(pregnant)
+		to_chat(owner, span_love("I feel a surge of warmth in my belly again..."))
+		return
 	to_chat(owner, span_love("I feel a surge of warmth in my belly, I’m definitely pregnant!"))
 	pregnant = TRUE
+	//TODO add a way to trigger lactating when pregnancy happens
 
 /obj/item/organ/breasts
 	name = "breasts"
