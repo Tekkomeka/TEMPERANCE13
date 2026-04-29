@@ -64,6 +64,8 @@
 	var/do_subtle_action = FALSE
 	/// Allow crotch to be exposed and bypass clothes check
 	var/bottom_exposed = FALSE
+	/// Allow chest to be exposed and show breasts
+	var/top_exposed = FALSE
 
 /datum/sex_controller/New(mob/living/carbon/human/owner)
 	user = owner
@@ -157,9 +159,9 @@
 		access_zone_bitfield |= SEX_ZONE_R_FOOT
 	if(get_location_accessible(user, BODY_ZONE_PRECISE_MOUTH, grabs = FALSE, skipundies = TRUE))
 		access_zone_bitfield |= SEX_ZONE_MOUTH
-	if(get_location_accessible(user, BODY_ZONE_CHEST, grabs = FALSE, skipundies = TRUE))
+	if(top_exposed || get_location_accessible(user, BODY_ZONE_CHEST, grabs = FALSE, skipundies = TRUE))
 		access_zone_bitfield |= SEX_ZONE_CHEST
-	if(get_location_accessible(user, BODY_ZONE_CHEST, grabs = TRUE, skipundies = TRUE))
+	if(top_exposed || get_location_accessible(user, BODY_ZONE_CHEST, grabs = TRUE, skipundies = TRUE))
 		access_zone_bitfield |= SEX_ZONE_CHEST_GRAB
 
 // only check active accessible body zones
@@ -182,9 +184,9 @@
 				access_zone_bitfield &= ~SEX_ZONE_MOUTH
 		if(BODY_ZONE_CHEST)
 			if(grabs)
-				if((access_zone_bitfield&SEX_ZONE_CHEST_GRAB) && !get_location_accessible(user, BODY_ZONE_CHEST, grabs = TRUE, skipundies = TRUE))
+				if((access_zone_bitfield&SEX_ZONE_CHEST_GRAB) && !top_exposed && !get_location_accessible(user, BODY_ZONE_CHEST, grabs = TRUE, skipundies = TRUE))
 					access_zone_bitfield &= ~SEX_ZONE_CHEST_GRAB
-			else if((access_zone_bitfield&SEX_ZONE_CHEST) && !get_location_accessible(user, BODY_ZONE_CHEST, grabs = FALSE, skipundies = TRUE))
+			else if((access_zone_bitfield&SEX_ZONE_CHEST) && !top_exposed && !get_location_accessible(user, BODY_ZONE_CHEST, grabs = FALSE, skipundies = TRUE))
 				access_zone_bitfield &= ~SEX_ZONE_CHEST
 		else
 			// hey YOU, add the new targeted zone to SEX_ZONE bitfield, and update update_all_accessible_body_zones()/get_accessible_body_zone()
@@ -700,6 +702,7 @@
 	var/manual_arousal_name = get_manual_arousal_string()
 	var/obj/item/organ/penis/got_cock = user.getorganslot(ORGAN_SLOT_PENIS)
 	var/obj/item/organ/vagina/got_pussy = user.getorganslot(ORGAN_SLOT_VAGINA)
+	var/obj/item/organ/breasts/got_boobs = user.getorganslot(ORGAN_SLOT_BREASTS)
 	dat += "<center><a href='?src=[REF(src)];task=speed_down'>\<</a> [speed_name] <a href='?src=[REF(src)];task=speed_up'>\></a> ~|~ <a href='?src=[REF(src)];task=force_down'>\<</a> [force_name] <a href='?src=[REF(src)];task=force_up'>\></a>"
 	if(got_cock)
 		dat += " ~|~ <a href='?src=[REF(src)];task=manual_arousal_down'>\<</a> [manual_arousal_name] <a href='?src=[REF(src)];task=manual_arousal_up'>\></a>"
@@ -710,6 +713,8 @@
 		dat += "</center><center><a href='?src=[REF(src)];task=toggle_bottom_exposed'>[bottom_exposed ? "PUSSY EXPOSED" : "PUSSY CONCEALED"]</a>"
 	else
 		dat += "</center><center><a href='?src=[REF(src)];task=toggle_bottom_exposed'>[bottom_exposed ? "CROTCH EXPOSED" : "CROTCH CONCEALED"]</a>"
+	if(got_boobs)
+		dat += " | <a href='?src=[REF(src)];task=toggle_top_exposed'>[top_exposed ? "TITS EXPOSED" : "TITS CONCEALED"]</a>"
 	if(current_action && !desire_stop)
 		var/datum/sex_action/action = SEX_ACTION(current_action)
 		if(action.subtle_supported)
@@ -791,6 +796,9 @@
 			update_exposure()
 		if("toggle_bottom_exposed")
 			bottom_exposed = !bottom_exposed
+			update_exposure()
+		if("toggle_top_exposed")
+			top_exposed = !top_exposed
 			update_exposure()
 		if("set_arousal")
 			var/amount = input(user, "Value above 120 will immediately cause orgasm!", "Set Arousal", arousal) as num
