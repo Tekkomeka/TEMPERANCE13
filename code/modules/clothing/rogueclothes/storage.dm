@@ -501,7 +501,7 @@
 		/obj/item/ammo_box/clip/pistol,
 	)
 
-/obj/item/storage/belt/rogue/pouch/panbag
+/obj/item/storage/belt/rogue/pouch/lmg
 	name = "ammo pan strapbag"
 	desc = "A strap on bag meant to hold light machine gun ammo pans. It's a bit of a heavy item, but it does its job well."
 	icon_state = "strapbag"
