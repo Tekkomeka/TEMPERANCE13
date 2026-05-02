@@ -373,11 +373,11 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/barkeeper
-	name = "Innkeeper"
+	name = "Barkeeper"
 	icon_state = "arrow"
 
 /obj/effect/landmark/start/barkeeperlate
-	name = "Innkeeper"
+	name = "Barkeeper"
 	icon_state = "arrow"
 	jobspawn_override = list("Innkeeper")
 	delete_after_roundstart = FALSE
