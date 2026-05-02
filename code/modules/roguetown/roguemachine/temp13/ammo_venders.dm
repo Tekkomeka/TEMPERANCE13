@@ -5,7 +5,6 @@
 	is_public = TRUE
 	locked = FALSE
 	categories = list(
-		"AMMUNITION",
 		"FORTIFICATIONS",
 		"GRENADES",
 	)
@@ -19,7 +18,6 @@
 	is_public = TRUE
 	locked = FALSE
 	categories = list(
-		"AMMUNITION",
 		"FORTIFICATIONS",
 		"GRENADES",
 	)
