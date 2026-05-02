@@ -753,11 +753,21 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 /obj/effect/landmark/start/flamsoldato
 	name = "Flamsoldato"
 	icon_state = "arrow"
+
+/obj/effect/landmark/start/flamsoldatolate
+	name = "Flamsoldato"
+	icon_state = "arrow"
+	jobspawn_override = list("Flamsoldato")
 	delete_after_roundstart = FALSE
 
 /obj/effect/landmark/start/radiotrooper
 	name = "Radio Officer"
 	icon_state = "arrow"
+
+/obj/effect/landmark/start/radiotrooperlate
+	name = "Radio Officer"
+	icon_state = "arrow"
+	jobspawn_override = list("Radio Officer")
 	delete_after_roundstart = FALSE
 
 //Antagonist spawns
