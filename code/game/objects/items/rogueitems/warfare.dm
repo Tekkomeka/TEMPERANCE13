@@ -5,8 +5,10 @@
 	desc = "A pile of sandbags. Wire included."
 	lefthand_file = null
 	righthand_file = null
-	w_class = WEIGHT_CLASS_SMALL
+	w_class = WEIGHT_CLASS_NORMAL
 	slot_flags = ITEM_SLOT_MOUTH
+	grid_width = 32
+	grid_height = 64
 
 /obj/item/barbedwire
 	name = "barbed wire"
@@ -15,8 +17,10 @@
 	desc = "A stack of barbed wire! Be careful."
 	lefthand_file = null
 	righthand_file = null
-	w_class = WEIGHT_CLASS_SMALL
+	w_class = WEIGHT_CLASS_NORMAL
 	slot_flags = ITEM_SLOT_MOUTH
+	grid_width = 32
+	grid_height = 64
 
 /obj/item/landmine
 	name = "landmine"
