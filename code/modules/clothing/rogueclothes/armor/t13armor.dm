@@ -126,8 +126,8 @@
 /obj/item/clothing/suit/roguetown/armor/leather/heavy/radio
 	name = "imperial coat"
 	desc = "Semi-formal wear, standard issue for radio officers."
-	icon_state = "officerguard"
-	item_state = "officerguard"
+	icon_state = "northprotector"
+	item_state = "northprotector"
 	body_parts_covered = COVERAGE_FULL
 	max_integrity = ARMOR_INT_CHEST_LIGHT_MASTER
 	equip_delay_self = 40
