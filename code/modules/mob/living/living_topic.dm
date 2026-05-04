@@ -38,13 +38,13 @@
 	var/list/message = list()
 	if((stat >= DEAD || HAS_TRAIT(src, TRAIT_FAKEDEATH) || HAS_TRAIT(src, TRAIT_ROTMAN)) && get_bodypart("head"))
 		if(suiciding)
-			message += "<span class='deadsay'>[p_they(TRUE)] commited suicide... Nothing can be done...</span>"
+			message += "<span class='deadsay'>[p_they(TRUE)] killed themselves, dumbass.</span>"
 		if(!key && !get_ghost(FALSE, TRUE))
-			message += span_deadsay("[p_their(TRUE)] soul has departed...")
+			message += span_deadsay("[p_their(TRUE)] is a goner. Might as well throw 'em out.")
 		else
-			message += span_deadsay("[p_they(TRUE)] [p_are()] still here.")
+			message += span_deadsay("[p_they(TRUE)] [p_are()] can be worked on.")
 		if(key && !client)
-			message += span_deadsay("[p_their(TRUE)] soul is wandering...")
+			message += span_deadsay("[p_their(TRUE)] might not respond to a REVIVER.")
 	return message
 
 //Vrell - Moved this here
