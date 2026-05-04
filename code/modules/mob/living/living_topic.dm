@@ -42,7 +42,7 @@
 		if(!key && !get_ghost(FALSE, TRUE))
 			message += span_deadsay("[p_their(TRUE)] soul has departed...")
 		else
-			message += span_deadsay("[p_they(TRUE)] [p_are()] still earthbound.")
+			message += span_deadsay("[p_they(TRUE)] [p_are()] still here.")
 	return message
 
 //Vrell - Moved this here
