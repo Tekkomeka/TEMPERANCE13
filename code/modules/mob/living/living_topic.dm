@@ -44,7 +44,7 @@
 		else
 			message += span_deadsay("[p_they(TRUE)] [p_are()] can be worked on.")
 		if(key && !client)
-			message += span_deadsay("[p_their(TRUE)] might not respond to a REVIVER.")
+			message += span_deadsay("[p_their(TRUE)] might not pull through.")
 	return message
 
 //Vrell - Moved this here
