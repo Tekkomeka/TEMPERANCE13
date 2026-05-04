@@ -36,13 +36,15 @@
 
 /mob/living/proc/soul_examine_temperance(mob/user)
 	var/list/message = list()
-	if(stat >= DEAD || HAS_TRAIT(src, TRAIT_FAKEDEATH) || HAS_TRAIT(src, TRAIT_ROTMAN))
+	if((stat >= DEAD || HAS_TRAIT(src, TRAIT_FAKEDEATH) || HAS_TRAIT(src, TRAIT_ROTMAN)) && get_bodypart("head"))
 		if(suiciding)
 			message += "<span class='deadsay'>[p_they(TRUE)] commited suicide... Nothing can be done...</span>"
 		if(!key && !get_ghost(FALSE, TRUE))
 			message += span_deadsay("[p_their(TRUE)] soul has departed...")
 		else
 			message += span_deadsay("[p_they(TRUE)] [p_are()] still here.")
+		if(key && !client)
+			message += span_deadsay("[p_their(TRUE)] soul is wandering...")
 	return message
 
 //Vrell - Moved this here
