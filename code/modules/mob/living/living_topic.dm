@@ -40,11 +40,11 @@
 		if(suiciding)
 			message += "<span class='deadsay'>[p_they(TRUE)] killed themselves, dumbass.</span>"
 		if(!key && !get_ghost(FALSE, TRUE))
-			message += span_deadsay("[p_their(TRUE)] is a goner. Might as well throw 'em out.")
+			message += span_deadsay("[p_they(TRUE)] [p_are()] a goner. Might as well throw 'em out.")
 		else
-			message += span_deadsay("[p_they(TRUE)] [p_are()] can be worked on.")
+			message += span_deadsay("[p_they(TRUE)] can be worked on.")
 		if(key && !client)
-			message += span_deadsay("[p_their(TRUE)] might not pull through.")
+			message += span_deadsay("[p_they(TRUE)] might not pull through.")
 	return message
 
 //Vrell - Moved this here
